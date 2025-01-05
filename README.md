@@ -100,14 +100,21 @@ Summary of popular datasets used in text-driven 360-degree panorama generation.
 
 ## Evaluation Metrics
 
-**Geometry Fidelity for Spherical Images.**<br>
-*Anders Christensen, Nooshin Mojab, Khushman Patel, Karan Ahuja, Zeynep Akata, Ole Winther, Mar Gonzalez-Franco, Andrea Colaco.*<br>
-ECCV 2024. [[PDF](https://arxiv.org/abs/2407.18207)]<br>
+### Universal Image Quality Metrics
 
-**AIGCOIQA2024: Perceptual Quality Assessment of AI Generated Omnidirectional Images.**<br>
-*Liu Yang, Huiyu Duan, Long Teng, Yucheng Zhu, Xiaohong Liu, Menghan Hu, Xiongkuo Min, Guangtao Zhai, Patrick Le Callet.*<br>
-ICIP 2024. [[PDF](https://arxiv.org/abs/2404.01024)]<br>
+* Fréchet Inception Distance (FID)
 
-**Perceptual Depth Quality Assessment of Stereoscopic Omnidirectional Images.**<br>
-*Wei Zhou, Zhou Wang.*<br>
-TCSVT 2024. [[PDF](https://arxiv.org/abs/2408.10134)]<br>
+* Kernel Inception Distance (KID)
+
+* CLIP Score (CS)
+
+* Inception Score (IS)
+
+### 360-Specific Metrics
+
+* Omnidirectional FID (OmniFID)
+
+* Discontinuity Score (DS)
+
+* Fréchet Auto-Encoder Distance (FAED)
+
