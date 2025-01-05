@@ -36,59 +36,6 @@ ACM MM 2023. [[PDF](https://arxiv.org/abs/2308.14686)] [[Code]](https://github.c
 *Zhaoxi Chen, Guangcong Wang, Ziwei Liu.*<br>
 TOG 2022 (SIGGRAPH Asia). [[PDF](https://arxiv.org/abs/2209.09898)] [[Project](https://frozenburning.github.io/projects/text2light/)] [[Code]](https://github.com/FrozenBurning/Text2Light)<br>
 
-## Text-based 360-degree video generation
-
-**360DVD: Controllable Panorama Video Generation with 360-Degree Video Diffusion Model.**<br>
-*Qian Wang, Weiqi Li, Chong Mou, Xinhua Cheng, Jian Zhang.*<br>
-CVPR 2024. [[PDF](https://arxiv.org/abs/2401.06578)] [[Project](https://akaneqwq.github.io/360DVD/)] [[Code]](https://github.com/Akaneqwq/360DVD)<br>
-
-**Imagine360: Immersive 360 Video Generation from Perspective Anchor.**<br>
-*Jing Tan, Shuai Yang, Tong Wu, Jingwen He, Yuwei Guo, Ziwei Liu, Dahua Lin.*<br>
-arxiv 2024. [[PDF](https://arxiv.org/abs/2412.03552)] [[Project](https://ys-imtech.github.io/projects/Imagine360/)] [[Code]](https://github.com/YS-IMTech/Imagine360)<br>
-
-## Null-Text 360-degree panorama outpainting
-
-**2S-ODIS: Two-Stage Omni-Directional Image Synthesis by Geometric Distortion Correctionn.**<br>
-*Atsuya Nakata, Takao Yamanaka.*<br>
-ECCV 2024. [[PDF](https://arxiv.org/abs/2409.09969)] [[Code]](https://github.com/islab-sophia/2S-ODIS)<br>
-
-**CamFreeDiff: Camera-free Image to Panorama Generation with Diffusion Model.**<br>
-*Xiaoding Yuan, Shitao Tang, Kejie Li, Alan Yuille, Peng Wang.*<br>
-arxiv 2024. [[PDF](https://arxiv.org/abs/2407.07174)]<br>
-
-**HORIZON: High-Resolution Semantically Controlled Panorama Synthesis.**<br>
-*Kun Yan, Lei Ji, Chenfei Wu, Jian Liang, Ming Zhou, Nan Duan, Shuai Ma.*<br>
-AAAI 2024. [[PDF](https://ojs.aaai.org/index.php/AAAI/article/view/28463)]<br>
-
-**Dream360: Diverse and Immersive Outdoor Virtual Scene Creation via Transformer-Based 360 Image Outpainting.**<br>
-*Hao Ai, Zidong Cao, Haonan Lu, Chen Chen, Jian Ma, Pengyuan Zhou, Tae-Kyun Kim, Pan Hui, Lin Wang.*<br>
-VR 2024. [[PDF](https://arxiv.org/abs/2401.10564)]<br>
-
-**PanoDiffusion: 360-degree Panorama Outpainting via Diffusion.**<br>
-*Tianhao Wu, Chuanxia Zheng, Tat-Jen Cham.*<br>
-ICLR 2024. [[PDF](https://arxiv.org/abs/2307.03177)] [[Project](https://sm0kywu.github.io/panodiffusion/)] [[Code]](https://github.com/PanoDiffusion/PanoDiffusion)<br>
-
-## Text-Driven 360-degree panoramic image-to-image translation
-
-**360PanT: Training-Free Text-Driven 360-Degree Panorama-to-Panorama Translation.**<br>
-*Hai Wang, Jing-Hao Xue.*<br>
-WACV 2025. [[PDF](https://arxiv.org/abs/2409.08397)] [[Project](https://littlewhitesea.github.io/360PanT.github.io/)] [[Code]](https://github.com/littlewhitesea/360PanT)<br>
-
-**Panoramic Image-to-Image Translation.**<br>
-*Soohyun Kim, Junho Kim, Taekyung Kim, Hwan Heo, Seungryong Kim, Jiyoung Lee, Jin-Hwa Kim.*<br>
-arxiv 2023. [[PDF](https://arxiv.org/abs/2304.04960)]<br>
-Comments: It doesn't involve text prompts.
-
-## 360-degree panoramic image super-resolution
-
-**OmniSSR: Zero-shot Omnidirectional Image Super-Resolution using Stable Diffusion Model.**<br>
-*Runyi Li, Xuhan Sheng, Weiqi Li, Jian Zhang.*<br>
-ECCV 2024. [[PDF](https://arxiv.org/abs/2404.10312)] [[Project](https://lirunyi2001.github.io/projects/omnissr/)] [[Code]](https://github.com/LiRunyi2001/OmniSSR)<br>
-
-**OSRT: Omnidirectional Image Super-Resolution with Distortion-aware Transformer.**<br>
-*Fanghua Yu, Xintao Wang, Mingdeng Cao, Gen Li, Ying Shan, Chao Dong.*<br>
-CVPR 2023. [[PDF](https://arxiv.org/abs/2302.03453)] [[Code]](https://github.com/Fanghua-Yu/OSRT)<br>
-
 ## Evaluation Metrics
 
 **Geometry Fidelity for Spherical Images.**<br>
@@ -103,23 +50,7 @@ ICIP 2024. [[PDF](https://arxiv.org/abs/2404.01024)]<br>
 *Wei Zhou, Zhou Wang.*<br>
 TCSVT 2024. [[PDF](https://arxiv.org/abs/2408.10134)]<br>
 
-## 3D reconstruction using 360-degree panoramas
-
-**360Recon: An Accurate Reconstruction Method Based on Depth Fusion from 360 Images.**<br>
-*Zhongmiao Yan, Qi Wu, Songpengcheng Xia, Junyuan Deng, Xiang Mu, Renbiao Jin, Ling Pei.*<br>
-arxiv 2024. [[PDF](https://arxiv.org/abs/2411.19102)] <br>
-
-**ODGS: 3D Scene Reconstruction from Omnidirectional Images with 3D Gaussian Splattings.**<br>
-*Suyoung Lee, Jaeyoung Chung, Jaeyoo Huh, Kyoung Mu Lee.*<br>
-NeurIPS 2024. [[PDF](https://arxiv.org/abs/2410.20686)] [[Code]](https://github.com/esw0116/ODGS)<br>
-
-**OmniGS: Fast Radiance Field Reconstruction using Omnidirectional Gaussian Splatting.**<br>
-*Longwei Li, Huajian Huang, Sai-Kit Yeung, Hui Cheng.*<br>
-arxiv 2024. [[PDF](https://arxiv.org/abs/2404.03202)]<br>
-
-**MaGRITTe: Manipulative and Generative 3D Realization from Image, Topview and Text.**<br>
-*Takayuki Hara, Tatsuya Harada.*<br>
-arxiv 2024. [[PDF](https://arxiv.org/abs/2404.00345)] [[Project](https://hara012.github.io/MaGRITTe-project/)]<br>
+## Applications in 3D Scene Generation
 
 **LayerPano3D: Layered 3D Panorama for Hyper-Immersive Scene Generation.**<br>
 *Shuai Yang, Jing Tan, Mengchen Zhang, Tong Wu, Yixuan Li, Gordon Wetzstein, Ziwei Liu, Dahua Lin.*<br>
@@ -128,10 +59,6 @@ arxiv 2024. [[PDF](https://arxiv.org/abs/2408.13252)] [[Project](https://ys-imte
 **SceneDreamer360: Text-Driven 3D-Consistent Scene Generation with Panoramic Gaussian Splatting.**<br>
 *Wenrui Li, Yapeng Mi, Fucheng Cai, Zhe Yang, Wangmeng Zuo, Xingtao Wang, Xiaopeng Fan.*<br>
 arxiv 2024. [[PDF](https://arxiv.org/abs/2408.13711)] [[Code]](https://github.com/liwrui/SceneDreamer360)<br>
-
-**Pano2Room: Novel View Synthesis from a Single Indoor Panorama.**<br>
-*Guo Pu, Yiming Zhao, Zhouhui Lian.*<br>
-SIGGRAPH Asia 2024. [[PDF](https://arxiv.org/abs/2408.11413)] [[Code]](https://github.com/TrickyGo/Pano2Room)<br>
 
 **HoloDreamer: Holistic 3D Panoramic World Generation from Text Descriptions.**<br>
 *Haiyang Zhou, Xinhua Cheng, Wangbo Yu, Yonghong Tian, Li Yuan.*<br>
@@ -144,14 +71,3 @@ ECCV 2024. [[PDF](https://arxiv.org/abs/2404.06903)] [[Project](https://dreamsce
 **FastScene: Text-Driven Fast 3D Indoor Scene Generation via Panoramic Gaussian Splatting.**<br>
 *Yikun Ma, Dandan Zhan, Zhi Jin.*<br>
 IJCAI 2024. [[PDF](https://arxiv.org/abs/2405.05768)] [[Code]](https://github.com/Mr-Ma-yikun/FastScene)<br>
-
-**PERF: Panoramic Neural Radiance Field from a Single Panorama.**<br>
-*Guangcong Wang, Peng Wang, Zhaoxi Chen, Wenping Wang, Chen Change Loy, Ziwei Liu.*<br>
-TPAMI 2024. [[PDF](https://arxiv.org/abs/2310.16831)] [[Project](https://perf-project.github.io/)] [[Code]](https://github.com/perf-project/PeRF)<br>
-
-
-## Application
-
-**OmniDrag: Enabling Motion Control for Omnidirectional Image-to-Video Generation.**<br>
-*Weiqi Li, Shijie Zhao, Chong Mou, Xuhan Sheng, Zhenyu Zhang, Qian Wang, Junlin Li, Li Zhang, Jian Zhang.*<br>
-arxiv 2024. [[PDF](https://arxiv.org/abs/2412.09623)] [[Project](https://lwq20020127.github.io/OmniDrag/)] [[Code]](https://github.com/lwq20020127/OmniDrag)<br>
