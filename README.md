@@ -36,20 +36,6 @@ ACM MM 2023. [[PDF](https://arxiv.org/abs/2308.14686)] [[Code]](https://github.c
 *Zhaoxi Chen, Guangcong Wang, Ziwei Liu.*<br>
 TOG 2022 (SIGGRAPH Asia). [[PDF](https://arxiv.org/abs/2209.09898)] [[Project](https://frozenburning.github.io/projects/text2light/)] [[Code]](https://github.com/FrozenBurning/Text2Light)<br>
 
-## Evaluation Metrics
-
-**Geometry Fidelity for Spherical Images.**<br>
-*Anders Christensen, Nooshin Mojab, Khushman Patel, Karan Ahuja, Zeynep Akata, Ole Winther, Mar Gonzalez-Franco, Andrea Colaco.*<br>
-ECCV 2024. [[PDF](https://arxiv.org/abs/2407.18207)]<br>
-
-**AIGCOIQA2024: Perceptual Quality Assessment of AI Generated Omnidirectional Images.**<br>
-*Liu Yang, Huiyu Duan, Long Teng, Yucheng Zhu, Xiaohong Liu, Menghan Hu, Xiongkuo Min, Guangtao Zhai, Patrick Le Callet.*<br>
-ICIP 2024. [[PDF](https://arxiv.org/abs/2404.01024)]<br>
-
-**Perceptual Depth Quality Assessment of Stereoscopic Omnidirectional Images.**<br>
-*Wei Zhou, Zhou Wang.*<br>
-TCSVT 2024. [[PDF](https://arxiv.org/abs/2408.10134)]<br>
-
 ## Applications in 3D Scene Generation
 
 **LayerPano3D: Layered 3D Panorama for Hyper-Immersive Scene Generation.**<br>
@@ -71,3 +57,19 @@ ECCV 2024. [[PDF](https://arxiv.org/abs/2404.06903)] [[Project](https://dreamsce
 **FastScene: Text-Driven Fast 3D Indoor Scene Generation via Panoramic Gaussian Splatting.**<br>
 *Yikun Ma, Dandan Zhan, Zhi Jin.*<br>
 IJCAI 2024. [[PDF](https://arxiv.org/abs/2405.05768)] [[Code]](https://github.com/Mr-Ma-yikun/FastScene)<br>
+
+## Dataset
+
+## Evaluation Metrics
+
+**Geometry Fidelity for Spherical Images.**<br>
+*Anders Christensen, Nooshin Mojab, Khushman Patel, Karan Ahuja, Zeynep Akata, Ole Winther, Mar Gonzalez-Franco, Andrea Colaco.*<br>
+ECCV 2024. [[PDF](https://arxiv.org/abs/2407.18207)]<br>
+
+**AIGCOIQA2024: Perceptual Quality Assessment of AI Generated Omnidirectional Images.**<br>
+*Liu Yang, Huiyu Duan, Long Teng, Yucheng Zhu, Xiaohong Liu, Menghan Hu, Xiongkuo Min, Guangtao Zhai, Patrick Le Callet.*<br>
+ICIP 2024. [[PDF](https://arxiv.org/abs/2404.01024)]<br>
+
+**Perceptual Depth Quality Assessment of Stereoscopic Omnidirectional Images.**<br>
+*Wei Zhou, Zhou Wang.*<br>
+TCSVT 2024. [[PDF](https://arxiv.org/abs/2408.10134)]<br>
