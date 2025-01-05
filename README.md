@@ -85,6 +85,19 @@ IJCAI 2024. [[PDF](https://arxiv.org/abs/2405.05768)] [[Code]](https://github.co
 
 ## Dataset
 
+Summary of popular datasets used in text-driven 360-degree panorama generation.
+
+|  **dataset**  | **year**     | **category**    | **# samples** | **resolution** |
+|:-------------:|:------------:|:---------------:|:-------------:|:--------------:|
+| SUN360        | 2012         | I & O            | 67,583       | 9104 × 4552    |
+| Matterport3D  | 2017         | I | 15k          | 10,800       | 2048 x 1024
+| Laval Indoor  | 2017         | I                | 2,233        | 7668  × 3884   |
+| Laval Outdoor | 2019         | O                | 205          | 7668  × 3884   |
+| Structured3D  | 2020         | I                | 196,515      | 1024  × 512    |
+| Pano360       | 2021         | I & O            | 35,000       | 8192  × 4096   |
+| Polyhaven     | -            | I & O            | 775          | 8192  × 4096   |
+| Humus         | -            | I & O            | 139          | 8192  × 4096   |
+
 ## Evaluation Metrics
 
 **Geometry Fidelity for Spherical Images.**<br>
