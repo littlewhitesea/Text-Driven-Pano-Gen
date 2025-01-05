@@ -6,26 +6,18 @@ A Survey on Text-Driven 360-Degree Panorama Generation
 **DiffPano: Scalable and Consistent Text to Panorama Generation with Spherical Epipolar-Aware Diffusion.**<br>
 *Weicai Ye, Chenhao Ji, Zheng Chen, Junyao Gao, Xiaoshui Huang, Song-Hai Zhang, Wanli Ouyang, Tong He, Cairong Zhao, Guofeng Zhang.*<br>
 NeurIPS 2024. [[PDF](https://arxiv.org/abs/2410.24203)] [[Project](https://zju3dv.github.io/DiffPano/)] [[Code]](https://github.com/zju3dv/DiffPano)<br>
-Comments: 
 
 **PanoFree: Tuning-Free Holistic Multi-view Image Generation with Cross-view Self-Guidance.**<br>
 *Aoming Liu, Zhong Li, Zhang Chen, Nannan Li, Yi Xu, Bryan A. Plummer.*<br>
 ECCV 2024. [[PDF](https://arxiv.org/abs/2408.02157)] [[Project](https://panofree.github.io/)] [[Code]](https://github.com/zxcvfd13502/PanoFree)<br>
-Comments: It takes text prompts as guidance to create multi-view perspective images through sequential warping and inpainting steps, which can be stitched into a wide-angle panorama. 360 panorama (only horizontal 360-degree) is regarded as the central part of the final 360-degree panorama, then expansion and closing stages are employed to generate final 360-degree panorama using a training-free method.
 
 **Taming Stable Diffusion for Text to 360° Panorama Image Generation.**<br>
 *Cheng Zhang, Qianyi Wu, Camilo Cruz Gambardella, Xiaoshui Huang, Dinh Phung, Wanli Ouyang, Jianfei Cai.*<br>
 CVPR 2024. [[PDF](https://arxiv.org/abs/2404.07949)] [[Project](https://chengzhag.github.io/publication/panfusion/)] [[Code]](https://github.com/chengzhag/PanFusion)<br>
-Comments: It proposes a dual-branch pipeline for 360-degree panorama generation based on SD and LoRA. Specifically, one branch is used for the generation of panorama latent, while the other branch is utilized for perspective latent. The two branches communicate with each other through equirectangular-perspective projection attention modules.
-
-**EdgeRelight360: Text-Conditioned 360-Degree HDR Image Generation for Real-Time On-Device Video Portrait Relighting.**<br>
-*Min-Hui Lin, Mahesh Reddy, Guillaume Berger, Michel Sarkis, Fatih Porikli, Ning Bi.*<br>
-CVPRW 2024. [[PDF](https://arxiv.org/abs/2404.09918)]<br>
 
 **Diffusion360: Seamless 360 Degree Panoramic Image Generation based on Diffusion Models.**<br>
 *Mengyang Feng, Jinlin Liu, Miaomiao Cui, Xuansong Xie.*<br>
 arxiv 2024. [[PDF](https://arxiv.org/abs/2311.13141)] [[Code]](https://github.com/ArcherFMY/SD-T2I-360PanoImage)<br>
-Comments: It adopts dreambooth strategy to fine-tune stable diffusion for text-driven 360-degree panorama generation. Specifically, it proposes circular blending in the latent space and VAE decoder to keep boundary continuity. In addition, it utilizes ControlNet-outpainting to generate a 360-degree panorama from an ordinary image at perspective view, guided by an input text prompt.
 
 **Customizing 360-degree panoramas through text-to-image diffusion models.**<br>
 *Hai Wang, Xiaoyu Xiang, Yuchen Fan, Jing-Hao Xue.*<br>
@@ -34,17 +26,11 @@ WACV 2024. [[PDF](https://arxiv.org/abs/2310.18840)] [[Project](https://littlewh
 **Autoregressive Omni-Aware Outpainting for Open-Vocabulary 360-Degree Image Generation.**<br>
 *Zhuqiang Lu, Kun Hu, Chaoyue Wang, Lei Bai, Zhiyong Wang.*<br>
 AAAI 2024. [[PDF](https://arxiv.org/abs/2309.03467)] [[Code]](https://github.com/zhuqiangLu/AOG-NET-360)<br>
-Comments: It propose an autoregressive generative network to generate 360-degree panorama by outpainting an incomplete 360-degree panorama progressively with nFoV and text guidances jointly or individually.
 
-**MVDiffusion: Enabling Holistic Multi-view Image Generation with Correspondence-Aware Diffusion.**<br>
-*Shitao Tang, Fuyang Zhang, Jiacheng Chen, Peng Wang, Yasutaka Furukawa.*<br>
-NeurIPS 2023. [[PDF](https://arxiv.org/abs/2307.01097)] [[Project](https://mvdiffusion.github.io/)] [[Code]](https://github.com/Tangshitao/MVDiffusion)<br>
-Comments: Actually, in terms of 360-degree panorama generation, it adopts a text-driven narrow field-of-view outpainting method, and the generated image is not a real 360-degree panorama, it only covers 360-degree field-of-view horizontally, which is also indicated in PanFusion.
 
 **360-Degree Panorama Generation from Few Unregistered NFoV Images.**<br>
 *Jionghao Wang, Ziyu Chen, Jun Ling, Rong Xie, Li Song.*<br>
 ACM MM 2023. [[PDF](https://arxiv.org/abs/2308.14686)] [[Code]](https://github.com/shanemankiw/Panodiff)<br>
-Comments: Incomplete panorama and text prompts are as control signals instead of text prompts only.
 
 **Text2Light: Zero-Shot Text-Driven HDR Panorama Generation.**<br>
 *Zhaoxi Chen, Guangcong Wang, Ziwei Liu.*<br>
