@@ -1,7 +1,7 @@
-# Text-to-360Pano-Gen
+# Text-Driven-360Pano-Gen
 A Survey on Text-Driven 360-Degree Panorama Generation
 
-## Text-based 360-degree panorama generation
+## Text-Driven 360-degree panorama generation
 
 ### Text-Only Generation
 
