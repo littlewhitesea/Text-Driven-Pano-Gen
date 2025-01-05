@@ -3,6 +3,10 @@ A Survey on Text-Driven 360-Degree Panorama Generation
 
 ## Text-based 360-degree panorama generation
 
+### Text-Only Generation
+
+Text-only generation focuses on synthesizing 360-degree panoramas directly from textual descriptions.
+
 **DiffPano: Scalable and Consistent Text to Panorama Generation with Spherical Epipolar-Aware Diffusion.**<br>
 *Weicai Ye, Chenhao Ji, Zheng Chen, Junyao Gao, Xiaoshui Huang, Song-Hai Zhang, Wanli Ouyang, Tong He, Cairong Zhao, Guofeng Zhang.*<br>
 NeurIPS 2024. [[PDF](https://arxiv.org/abs/2410.24203)] [[Project](https://zju3dv.github.io/DiffPano/)] [[Code]](https://github.com/zju3dv/DiffPano)<br>
