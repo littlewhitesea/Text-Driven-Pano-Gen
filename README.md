@@ -70,7 +70,7 @@ arxiv 2024. [[PDF](https://arxiv.org/abs/2408.13252)] [[Project](https://ys-imte
 
 * **SceneDreamer360: Text-Driven 3D-Consistent Scene Generation with Panoramic Gaussian Splatting.**<br>
 *Wenrui Li, Yapeng Mi, Fucheng Cai, Zhe Yang, Wangmeng Zuo, Xingtao Wang, Xiaopeng Fan.*<br>
-arxiv 2024. [[PDF](https://arxiv.org/abs/2408.13711)] [[Code]](https://github.com/liwrui/SceneDreamer360)<br>
+arxiv 2024. [[PDF](https://arxiv.org/abs/2408.13711)] [[Project](https://scenedreamer360.github.io/)] [[Code]](https://github.com/liwrui/SceneDreamer360)<br>
 
 * **HoloDreamer: Holistic 3D Panoramic World Generation from Text Descriptions.**<br>
 *Haiyang Zhou, Xinhua Cheng, Wangbo Yu, Yonghong Tian, Li Yuan.*<br>
