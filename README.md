@@ -95,7 +95,7 @@ Summary of popular datasets used in text-driven 360-degree panorama generation.
 | Laval Indoor  | 2017         | I                | 2,233        | 7668  × 3884   |                                                  |
 | Laval Outdoor | 2019         | O                | 205          | 7668  × 3884   |                                                  |
 | Structured3D  | 2020         | I                | 196,515      | 1024  × 512    |  [custom license](https://drive.google.com/file/d/13ZwWpU_557ZQccwOUJ8H5lvXD7MeZFMa/view)                                                  |
-| Pano360       | 2021         | I & O            | 35,000       | 8192  × 4096   |                                                  |
+| Pano360       | 2021         | I & O            | 35,000       | 8192  × 4096   |  [custom license](https://spec.is.tue.mpg.de/license.html)                                                |
 | Polyhaven     | -            | I & O            | 775          | 8192  × 4096   | [CC0](https://polyhaven.com/license)             |
 | Humus         | -            | I & O            | 139          | 8192  × 4096   | [CC BY 3.0](https://www.humus.name/index.php?page=Textures)                                                |
 
