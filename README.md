@@ -91,7 +91,7 @@ Summary of popular datasets used in text-driven 360-degree panorama generation.
 |  **dataset**  | **year**     | **category**    | **# samples** | **resolution** |  **license**                                     |
 |:-------------:|:------------:|:---------------:|:-------------:|:--------------:|:------------------------------------------------:|
 | SUN360        | 2012         | I & O            | 67,583       | 9104 × 4552    |                                                  |
-| Matterport3D  | 2017         | I                | 10,800       | 2048 x 1024    |                                                  |
+| Matterport3D  | 2017         | I                | 10,800       | 2048 x 1024    |  [custom license](https://kaldir.vc.in.tum.de/matterport/MP_TOS.pdf)                                                |
 | Laval Indoor  | 2017         | I                | 2,233        | 7668  × 3884   |  [custom license](https://www.dropbox.com/scl/fi/r6niq8zmm0w03xgswj4b7/Laval-Indoor-HDR-Database-EULA.pdf?rlkey=yeetamvzevcmxrkcf9hy23ita&e=1&dl=0)     |
 | Laval Outdoor | 2019         | O                | 205          | 7668  × 3884   |  [custom license](https://www.dropbox.com/scl/fi/17pka14s69c8c02gnpqg4/Laval-Outdoor-HDR-Database-EULA.pdf?rlkey=ptb0j0l46aj08laion6y551e3&e=1&dl=0)    |
 | Structured3D  | 2020         | I                | 196,515      | 1024  × 512    |  [custom license](https://drive.google.com/file/d/13ZwWpU_557ZQccwOUJ8H5lvXD7MeZFMa/view)                                                  |
