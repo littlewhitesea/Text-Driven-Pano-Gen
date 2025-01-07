@@ -97,7 +97,7 @@ Summary of popular datasets used in text-driven 360-degree panorama generation.
 | Structured3D  | 2020         | I                | 196,515      | 1024  × 512    |  [custom license](https://drive.google.com/file/d/13ZwWpU_557ZQccwOUJ8H5lvXD7MeZFMa/view)                                                  |
 | Pano360       | 2021         | I & O            | 35,000       | 8192  × 4096   |                                                  |
 | Polyhaven     | -            | I & O            | 775          | 8192  × 4096   | [CC0](https://polyhaven.com/license)             |
-| Humus         | -            | I & O            | 139          | 8192  × 4096   |                                                  |
+| Humus         | -            | I & O            | 139          | 8192  × 4096   | [CC BY 3.0](https://www.humus.name/index.php?page=Textures)                                                |
 
 ## Evaluation Metrics
 
