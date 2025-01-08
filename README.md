@@ -90,12 +90,12 @@ Summary of popular datasets used in text-driven 360-degree panorama generation.
 
 |  **dataset**  | **year**     | **category**    | **# samples** | **resolution** |  **license**                                     |
 |:-------------:|:------------:|:---------------:|:-------------:|:--------------:|:------------------------------------------------:|
-| SUN360        | 2012         | I & O            | 67,583       | 9104 × 4552    |  [custom license](https://3dvision.princeton.edu/projects/2012/SUN360/)                                                |
-| Matterport3D  | 2017         | I                | 10,800       | 2048 x 1024    |  [custom license](https://kaldir.vc.in.tum.de/matterport/MP_TOS.pdf)                                                |
-| Laval Indoor  | 2017         | I                | 2,233        | 7668  × 3884   |  [custom license](https://www.dropbox.com/scl/fi/r6niq8zmm0w03xgswj4b7/Laval-Indoor-HDR-Database-EULA.pdf?rlkey=yeetamvzevcmxrkcf9hy23ita&e=1&dl=0)     |
-| Laval Outdoor | 2019         | O                | 205          | 7668  × 3884   |  [custom license](https://www.dropbox.com/scl/fi/17pka14s69c8c02gnpqg4/Laval-Outdoor-HDR-Database-EULA.pdf?rlkey=ptb0j0l46aj08laion6y551e3&e=1&dl=0)    |
-| Structured3D  | 2020         | I                | 196,515      | 1024  × 512    |  [custom license](https://drive.google.com/file/d/13ZwWpU_557ZQccwOUJ8H5lvXD7MeZFMa/view)                                                  |
-| Pano360       | 2021         | I & O            | 35,000       | 8192  × 4096   |  [custom license](https://spec.is.tue.mpg.de/license.html)                                                |
+| SUN360        | 2012         | I & O            | 67,583       | 9104 × 4552    |  [Custom](https://3dvision.princeton.edu/projects/2012/SUN360/)                                                |
+| Matterport3D  | 2017         | I                | 10,800       | 2048 x 1024    |  [Custom](https://kaldir.vc.in.tum.de/matterport/MP_TOS.pdf)                                                |
+| Laval Indoor  | 2017         | I                | 2,233        | 7668  × 3884   |  [Custom](https://www.dropbox.com/scl/fi/r6niq8zmm0w03xgswj4b7/Laval-Indoor-HDR-Database-EULA.pdf?rlkey=yeetamvzevcmxrkcf9hy23ita&e=1&dl=0)     |
+| Laval Outdoor | 2019         | O                | 205          | 7668  × 3884   |  [Custom](https://www.dropbox.com/scl/fi/17pka14s69c8c02gnpqg4/Laval-Outdoor-HDR-Database-EULA.pdf?rlkey=ptb0j0l46aj08laion6y551e3&e=1&dl=0)    |
+| Structured3D  | 2020         | I                | 196,515      | 1024  × 512    |  [Custom](https://drive.google.com/file/d/13ZwWpU_557ZQccwOUJ8H5lvXD7MeZFMa/view)                                                  |
+| Pano360       | 2021         | I & O            | 35,000       | 8192  × 4096   |  [Custom](https://spec.is.tue.mpg.de/license.html)                                                |
 | Polyhaven     | -            | I & O            | 775          | 8192  × 4096   | [CC0](https://polyhaven.com/license)             |
 | Humus         | -            | I & O            | 139          | 8192  × 4096   | [CC BY 3.0](https://www.humus.name/index.php?page=Textures)                                                |
 
