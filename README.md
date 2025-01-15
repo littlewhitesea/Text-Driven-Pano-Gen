@@ -117,5 +117,5 @@ Summary of popular datasets used in text-driven 360-degree panorama generation.
 
 * Discontinuity Score (DS)
 
-* Fréchet Auto-Encoder Distance (FAED)
+* Fréchet Auto-Encoder Distance (FAED) [code](https://github.com/chengzhag/PanFusion)
 
