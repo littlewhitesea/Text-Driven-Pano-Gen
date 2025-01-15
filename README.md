@@ -103,11 +103,11 @@ Summary of popular datasets used in text-driven 360-degree panorama generation.
 
 ### Universal Image Quality Metrics
 
-* Fréchet Inception Distance (FID)
+* Fréchet Inception Distance (FID) [code](https://lightning.ai/docs/torchmetrics/stable/image/frechet_inception_distance.html)
 
-* Kernel Inception Distance (KID)
+* Kernel Inception Distance (KID) [code](https://lightning.ai/docs/torchmetrics/stable/image/kernel_inception_distance.html)
 
-* CLIP Score (CS)
+* CLIP Score (CS) [code](https://lightning.ai/docs/torchmetrics/stable/multimodal/clip_score.html)
 
 * Inception Score (IS)
 
