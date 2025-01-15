@@ -109,7 +109,7 @@ Summary of popular datasets used in text-driven 360-degree panorama generation.
 
 * CLIP Score (CS) [code](https://lightning.ai/docs/torchmetrics/stable/multimodal/clip_score.html)
 
-* Inception Score (IS)
+* Inception Score (IS) [code](https://lightning.ai/docs/torchmetrics/stable/image/inception_score.html)
 
 ### 360-Specific Metrics
 
