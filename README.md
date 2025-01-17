@@ -42,7 +42,7 @@ ICLR 2025. <br>
 
 * **OPa-Ma: Text Guided Mamba for 360-degree Image Out-painting.**<br>
 *Penglei Gao, Kai Yao, Tiandi Ye, Steven Wang, Yuan Yao, Xiaofeng Wang.*<br>
-arxiv 2024. [[PDF](https://arxiv.org/abs/2407.10923)]<br>
+arxiv 2024. [[PDF](https://arxiv.org/abs/2407.10923)] [[Code]](https://github.com/PengleiGao/OPaMa)<br>
 
 * **Autoregressive Omni-Aware Outpainting for Open-Vocabulary 360-Degree Image Generation.**<br>
 *Zhuqiang Lu, Kun Hu, Chaoyue Wang, Lei Bai, Zhiyong Wang.*<br>
