@@ -113,9 +113,9 @@ Summary of popular datasets used in text-driven 360-degree panorama generation.
 
 ### 360-Specific Metrics
 
-* Omnidirectional FID (OmniFID)
+* Omnidirectional FID (OmniFID) [paper](https://link.springer.com/chapter/10.1007/978-3-031-72989-8_16)
 
-* Discontinuity Score (DS)
+* Discontinuity Score (DS) [paper](https://link.springer.com/chapter/10.1007/978-3-031-72989-8_16)
 
 * Fréchet Auto-Encoder Distance (FAED) [code](https://github.com/chengzhag/PanFusion)
 
