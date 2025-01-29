@@ -37,8 +37,8 @@ TOG 2022 (SIGGRAPH Asia). [[PDF](https://arxiv.org/abs/2209.09898)] [[Project](h
 Text-driven narrow field-of-view (NFoV) outpainting enhances user control by conditioning the generation process on both textual prompts and an initial narrow NFoV image.
 
 * **CubeDiff: Repurposing Diffusion-Based Image Models for Panorama Generation.**<br>
-*TBD.*<br>
-ICLR 2025. <br>
+*Nikolai Kalischek, Michael Oechsle, Fabian Manhardt, Philipp Henzler, Konrad Schindler, Federico Tombari.*<br>
+ICLR 2025. [[PDF](https://arxiv.org/abs/2501.17162)]<br>
 
 * **OPa-Ma: Text Guided Mamba for 360-degree Image Out-painting.**<br>
 *Penglei Gao, Kai Yao, Tiandi Ye, Steven Wang, Yuan Yao, Xiaofeng Wang.*<br>
