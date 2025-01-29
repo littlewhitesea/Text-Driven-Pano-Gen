@@ -38,7 +38,7 @@ Text-driven narrow field-of-view (NFoV) outpainting enhances user control by con
 
 * **CubeDiff: Repurposing Diffusion-Based Image Models for Panorama Generation.**<br>
 *Nikolai Kalischek, Michael Oechsle, Fabian Manhardt, Philipp Henzler, Konrad Schindler, Federico Tombari.*<br>
-ICLR 2025. [[PDF](https://arxiv.org/abs/2501.17162)]<br>
+ICLR 2025. [[PDF](https://arxiv.org/abs/2501.17162)] [[Project]](https://cubediff.github.io/)<br>
 
 * **OPa-Ma: Text Guided Mamba for 360-degree Image Out-painting.**<br>
 *Penglei Gao, Kai Yao, Tiandi Ye, Steven Wang, Yuan Yao, Xiaofeng Wang.*<br>
