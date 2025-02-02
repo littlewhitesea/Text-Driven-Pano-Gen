@@ -1,4 +1,4 @@
-# A Survey on Text-Driven 360-Degree Panorama Generation: Methods, Applications, and Prospects
+# A Survey on Text-Driven 360-Degree Panorama Generation
 
 ## Introduction
 
