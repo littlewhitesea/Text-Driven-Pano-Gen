@@ -62,7 +62,7 @@ ACM MM 2023. [[PDF](https://arxiv.org/abs/2308.14686)] [[Code]](https://github.c
 
 
 
-## Applications in 3D Scene Generation
+## Emerging 3D Applications
 
 * **LayerPano3D: Layered 3D Panorama for Hyper-Immersive Scene Generation.**<br>
 *Shuai Yang, Jing Tan, Mengchen Zhang, Tong Wu, Yixuan Li, Gordon Wetzstein, Ziwei Liu, Dahua Lin.*<br>
