@@ -96,8 +96,8 @@ Summary of popular datasets used in text-driven 360-degree panorama generation.
 | [Laval Outdoor](http://hdrdb.com/outdoor/) | 2019         | O                | 205          | 7668  × 3884   |  [Custom](https://www.dropbox.com/scl/fi/17pka14s69c8c02gnpqg4/Laval-Outdoor-HDR-Database-EULA.pdf?rlkey=ptb0j0l46aj08laion6y551e3&e=1&dl=0)    |
 | [Structured3D](https://structured3d-dataset.org/)  | 2020         | I                | 196,515      | 1024  × 512    |  [Custom](https://drive.google.com/file/d/13ZwWpU_557ZQccwOUJ8H5lvXD7MeZFMa/view)                                                  |
 | [Pano360](https://spec.is.tue.mpg.de/)       | 2021         | I & O            | 35,000       | 8192  × 4096   |  [Custom](https://spec.is.tue.mpg.de/license.html)                                                |
-| [Polyhaven](https://polyhaven.com/hdris)     | -            | I & O            | 775          | 8192  × 4096   | [CC0](https://polyhaven.com/license)             |
-| [Humus](https://www.humus.name/index.php?page=Textures)         | -            | I & O            | 139          | 8192  × 4096   | [CC BY 3.0](https://www.humus.name/index.php?page=Textures)                                                |
+| [Polyhaven](https://polyhaven.com/hdris)     | 2025            | I & O            | 786          | 8192  × 4096   | [CC0](https://polyhaven.com/license)             |
+| [Humus](https://www.humus.name/index.php?page=Textures)         | 2025            | I & O            | 139          | 8192  × 4096   | [CC BY 3.0](https://www.humus.name/index.php?page=Textures)                                                |
 
 ## Evaluation Metrics
 
