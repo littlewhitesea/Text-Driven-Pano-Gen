@@ -64,13 +64,13 @@ ACM MM 2023. [[PDF](https://arxiv.org/abs/2308.14686)] [[Code]](https://github.c
 
 ## Emerging 3D Applications
 
-* **LayerPano3D: Layered 3D Panorama for Hyper-Immersive Scene Generation.**<br>
-*Shuai Yang, Jing Tan, Mengchen Zhang, Tong Wu, Yixuan Li, Gordon Wetzstein, Ziwei Liu, Dahua Lin.*<br>
-arxiv 2024. [[PDF](https://arxiv.org/abs/2408.13252)] [[Project](https://ys-imtech.github.io/projects/LayerPano3D/)] [[Code]](https://github.com/YS-IMTech/LayerPano3D)<br>
-
 * **SceneDreamer360: Text-Driven 3D-Consistent Scene Generation with Panoramic Gaussian Splatting.**<br>
 *Wenrui Li, Yapeng Mi, Fucheng Cai, Zhe Yang, Wangmeng Zuo, Xingtao Wang, Xiaopeng Fan.*<br>
 arxiv 2024. [[PDF](https://arxiv.org/abs/2408.13711)] [[Project](https://scenedreamer360.github.io/)] [[Code]](https://github.com/liwrui/SceneDreamer360)<br>
+
+* **LayerPano3D: Layered 3D Panorama for Hyper-Immersive Scene Generation.**<br>
+*Shuai Yang, Jing Tan, Mengchen Zhang, Tong Wu, Yixuan Li, Gordon Wetzstein, Ziwei Liu, Dahua Lin.*<br>
+arxiv 2024. [[PDF](https://arxiv.org/abs/2408.13252)] [[Project](https://ys-imtech.github.io/projects/LayerPano3D/)] [[Code]](https://github.com/YS-IMTech/LayerPano3D)<br>
 
 * **HoloDreamer: Holistic 3D Panoramic World Generation from Text Descriptions.**<br>
 *Haiyang Zhou, Xinhua Cheng, Wangbo Yu, Yonghong Tian, Li Yuan.*<br>
