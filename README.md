@@ -107,15 +107,15 @@ Summary of popular datasets used in text-driven 360-degree panorama generation.
 
 * Kernel Inception Distance (KID) [code](https://lightning.ai/docs/torchmetrics/stable/image/kernel_inception_distance.html)
 
-* CLIP Score (CS) [code](https://lightning.ai/docs/torchmetrics/stable/multimodal/clip_score.html)
-
 * Inception Score (IS) [code](https://lightning.ai/docs/torchmetrics/stable/image/inception_score.html)
 
+* CLIP Score (CS) [code](https://lightning.ai/docs/torchmetrics/stable/multimodal/clip_score.html)
+
 ### 360-Specific Metrics
+
+* Fréchet Auto-Encoder Distance (FAED) [code](https://github.com/chengzhag/PanFusion)
 
 * Omnidirectional FID (OmniFID) [paper](https://link.springer.com/chapter/10.1007/978-3-031-72989-8_16)
 
 * Discontinuity Score (DS) [paper](https://link.springer.com/chapter/10.1007/978-3-031-72989-8_16)
-
-* Fréchet Auto-Encoder Distance (FAED) [code](https://github.com/chengzhag/PanFusion)
 
