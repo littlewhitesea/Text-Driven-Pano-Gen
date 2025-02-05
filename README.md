@@ -101,7 +101,7 @@ Summary of popular datasets used in text-driven 360-degree panorama generation.
 
 ## Evaluation Metrics
 
-### Universal Image Quality Metrics
+### Universal Metrics
 
 * Fréchet Inception Distance (FID) [code](https://lightning.ai/docs/torchmetrics/stable/image/frechet_inception_distance.html)
 
@@ -111,7 +111,7 @@ Summary of popular datasets used in text-driven 360-degree panorama generation.
 
 * CLIP Score (CS) [code](https://lightning.ai/docs/torchmetrics/stable/multimodal/clip_score.html)
 
-### 360-Specific Metrics
+### Panoramic-Specific Metrics
 
 * Fréchet Auto-Encoder Distance (FAED) [code](https://github.com/chengzhag/PanFusion)
 
