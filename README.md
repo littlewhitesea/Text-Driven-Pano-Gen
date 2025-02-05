@@ -34,7 +34,7 @@ TOG 2022 (SIGGRAPH Asia). [[PDF](https://arxiv.org/abs/2209.09898)] [[Project](h
 
 ### Text-Driven NFoV Outpainting
 
-Text-driven narrow field-of-view (NFoV) outpainting enhances user control by conditioning the generation process on both textual prompts and an initial narrow NFoV image.
+Text-driven narrow field-of-view (NFoV) outpainting enhances user control by conditioning the generation process on both textual prompts and initial narrow NFoV images.
 
 * **CubeDiff: Repurposing Diffusion-Based Image Models for Panorama Generation.**<br>
 *Nikolai Kalischek, Michael Oechsle, Fabian Manhardt, Philipp Henzler, Konrad Schindler, Federico Tombari.*<br>
