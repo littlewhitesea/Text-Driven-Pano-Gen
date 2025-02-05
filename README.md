@@ -6,7 +6,7 @@
 
 ### Text-Only Generation
 
-Text-only generation focuses on synthesizing 360-degree panoramas directly from textual descriptions.
+Text-only generation focuses on synthesizing 360-degree panoramas from textual descriptions only.
 
 * **DiffPano: Scalable and Consistent Text to Panorama Generation with Spherical Epipolar-Aware Diffusion.**<br>
 *Weicai Ye, Chenhao Ji, Zheng Chen, Junyao Gao, Xiaoshui Huang, Song-Hai Zhang, Wanli Ouyang, Tong He, Cairong Zhao, Guofeng Zhang.*<br>
