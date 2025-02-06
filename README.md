@@ -11,7 +11,8 @@
 This project lists representative papers/codes/datasets about **Text-Driven 360-Degree Panorama Generation**, which aims to comprehensively and systematically summarize the recent advances to the best of our knowledge.
 
 We aim to constantly update the latest relevant papers and help the community track this topic. If you find any missed resources or errors, please feel free to open an issue or make a pull request.
-### Text-Only Generation
+
+## Text-Only Generation
 
 Text-only generation focuses on synthesizing 360-degree panoramas from textual descriptions only.
 
@@ -39,7 +40,7 @@ TOG 2022 (SIGGRAPH Asia). [[PDF](https://arxiv.org/abs/2209.09898)] [[Project](h
 *Mengyang Feng, Jinlin Liu, Miaomiao Cui, Xuansong Xie.*<br>
 arxiv 2023. [[PDF](https://arxiv.org/abs/2311.13141)] [[Code]](https://github.com/ArcherFMY/SD-T2I-360PanoImage)<br>
 
-### Text-Driven NFoV Outpainting
+## Text-Driven NFoV Outpainting
 
 Text-driven narrow field-of-view (NFoV) outpainting enhances user control by conditioning the generation process on both textual prompts and initial narrow NFoV images.
 
@@ -58,7 +59,6 @@ ACM MM 2023. [[PDF](https://arxiv.org/abs/2308.14686)] [[Code]](https://github.c
 * **Guided Co-Modulated GAN for 360° Field of View Extrapolation.**<br>
 *Mohammad Reza Karimi Dastjerdi, Yannick Hold-Geoffroy, Jonathan Eisenmann, Siavash Khodadadeh, Jean-François Lalonde.*<br>
 3DV 2022. [[PDF](https://arxiv.org/abs/2204.07286)] [[Project](https://lvsn.github.io/ImmerseGAN/)]<br>
-
 
 * **OPa-Ma: Text Guided Mamba for 360-degree Image Out-painting.**<br>
 *Penglei Gao, Kai Yao, Tiandi Ye, Steven Wang, Yuan Yao, Xiaofeng Wang.*<br>
@@ -104,7 +104,6 @@ Quantitative Comparison of Representative Text-Driven 360-Degree Panorama Genera
 | **Text-Driven NFoV Outpainting** |           |             |          |           |           |            |          |             |
 | PanoDiff                         | _65.94_   | _2.44_      | **4.72** | **19.02** | _10.24_   | _122.30_   | _1.10_   | _48_        |
 | Diffusion360                     | **64.19** | **2.05**    | _4.53_   | _17.92_   | **5.50**  | **101.39** | **0.72** | **4**       |
-
 
 ## Dataset
 

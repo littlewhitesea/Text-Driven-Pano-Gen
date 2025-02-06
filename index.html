@@ -1,0 +1,401 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+</head>
+
+<h1 id="text-driven-360-degree-panorama-generation">Text-Driven 360-Degree Panorama Generation</h1>
+<p><a href="https://awesome.re"><img src="https://awesome.re/badge.svg"
+alt="Awesome" /></a> <img
+src="https://img.shields.io/badge/PRs-Welcome-green"
+alt="PRs Welcome" /> <img
+src="https://img.shields.io/github/stars/littlewhitesea/Text-Driven-Pano-Gen"
+alt="Stars" /> <a
+href="https://badges.pufler.dev/visits/littlewhitesea/Text-Driven-Pano-Gen"><img
+src="https://badges.pufler.dev/visits/littlewhitesea/Text-Driven-Pano-Gen"
+alt="Visits Badge" /></a></p>
+</div>
+
+<div id="layout-content">
+<h2 id="introduction">Introduction</h2>
+<p>This project lists representative papers/codes/datasets about
+<strong>Text-Driven 360-Degree Panorama Generation</strong>, which aims
+to comprehensively and systematically summarize the recent advances to
+the best of our knowledge.</p>
+<p>We aim to constantly update the latest relevant papers and help the
+community track this topic. If you find any missed resources or errors,
+please feel free to open an issue or make a pull request.</p>
+
+<h2 id="text-only-generation">Text-Only Generation</h2>
+
+<p>Text-only generation focuses on synthesizing 360-degree panoramas
+from textual descriptions only.</p>
+<ul>
+<li><p><strong>DiffPano: Scalable and Consistent Text to Panorama
+Generation with Spherical Epipolar-Aware Diffusion.</strong><br>
+<em>Weicai Ye, Chenhao Ji, Zheng Chen, Junyao Gao, Xiaoshui Huang,
+Song-Hai Zhang, Wanli Ouyang, Tong He, Cairong Zhao, Guofeng
+Zhang.</em><br> NeurIPS 2024. [<a
+href="https://arxiv.org/abs/2410.24203">PDF</a>] [<a
+href="https://zju3dv.github.io/DiffPano/">Project</a>] <a
+href="https://github.com/zju3dv/DiffPano">[Code]</a><br></p></li>
+<li><p><strong>PanoFree: Tuning-Free Holistic Multi-view Image
+Generation with Cross-view Self-Guidance.</strong><br> <em>Aoming Liu,
+Zhong Li, Zhang Chen, Nannan Li, Yi Xu, Bryan A. Plummer.</em><br> ECCV
+2024. [<a href="https://arxiv.org/abs/2408.02157">PDF</a>] [<a
+href="https://panofree.github.io/">Project</a>] <a
+href="https://github.com/zxcvfd13502/PanoFree">[Code]</a><br></p></li>
+<li><p><strong>Taming Stable Diffusion for Text to 360° Panorama Image
+Generation.</strong><br> <em>Cheng Zhang, Qianyi Wu, Camilo Cruz
+Gambardella, Xiaoshui Huang, Dinh Phung, Wanli Ouyang, Jianfei
+Cai.</em><br> CVPR 2024. [<a
+href="https://arxiv.org/abs/2404.07949">PDF</a>] [<a
+href="https://chengzhag.github.io/publication/panfusion/">Project</a>]
+<a href="https://github.com/chengzhag/PanFusion">[Code]</a><br></p></li>
+<li><p><strong>Customizing 360-degree panoramas through text-to-image
+diffusion models.</strong><br> <em>Hai Wang, Xiaoyu Xiang, Yuchen Fan,
+Jing-Hao Xue.</em><br> WACV 2024. [<a
+href="https://arxiv.org/abs/2310.18840">PDF</a>] [<a
+href="https://littlewhitesea.github.io/stitchdiffusion.github.io/">Project</a>]
+<a
+href="https://github.com/littlewhitesea/StitchDiffusion">[Code]</a><br></p></li>
+<li><p><strong>Text2Light: Zero-Shot Text-Driven HDR Panorama
+Generation.</strong><br> <em>Zhaoxi Chen, Guangcong Wang, Ziwei
+Liu.</em><br> TOG 2022 (SIGGRAPH Asia). [<a
+href="https://arxiv.org/abs/2209.09898">PDF</a>] [<a
+href="https://frozenburning.github.io/projects/text2light/">Project</a>]
+<a
+href="https://github.com/FrozenBurning/Text2Light">[Code]</a><br></p></li>
+<li><p><strong>Diffusion360: Seamless 360 Degree Panoramic Image
+Generation based on Diffusion Models.</strong><br> <em>Mengyang Feng,
+Jinlin Liu, Miaomiao Cui, Xuansong Xie.</em><br> arxiv 2023. [<a
+href="https://arxiv.org/abs/2311.13141">PDF</a>] <a
+href="https://github.com/ArcherFMY/SD-T2I-360PanoImage">[Code]</a><br></p></li>
+</ul>
+
+<h2 id="text-driven-nfov-outpainting">Text-Driven NFoV Outpainting</h2>
+<p>Text-driven narrow field-of-view (NFoV) outpainting enhances user
+control by conditioning the generation process on both textual prompts
+and initial narrow NFoV images.</p>
+<ul>
+<li><p><strong>CubeDiff: Repurposing Diffusion-Based Image Models for
+Panorama Generation.</strong><br> <em>Nikolai Kalischek, Michael
+Oechsle, Fabian Manhardt, Philipp Henzler, Konrad Schindler, Federico
+Tombari.</em><br> ICLR 2025. [<a
+href="https://arxiv.org/abs/2501.17162">PDF</a>] <a
+href="https://cubediff.github.io/">[Project]</a><br></p></li>
+<li><p><strong>Autoregressive Omni-Aware Outpainting for Open-Vocabulary
+360-Degree Image Generation.</strong><br> <em>Zhuqiang Lu, Kun Hu,
+Chaoyue Wang, Lei Bai, Zhiyong Wang.</em><br> AAAI 2024. [<a
+href="https://arxiv.org/abs/2309.03467">PDF</a>] <a
+href="https://github.com/zhuqiangLu/AOG-NET-360">[Code]</a><br></p></li>
+<li><p><strong>360-Degree Panorama Generation from Few Unregistered NFoV
+Images.</strong><br> <em>Jionghao Wang, Ziyu Chen, Jun Ling, Rong Xie,
+Li Song.</em><br> ACM MM 2023. [<a
+href="https://arxiv.org/abs/2308.14686">PDF</a>] <a
+href="https://github.com/shanemankiw/Panodiff">[Code]</a><br></p></li>
+<li><p><strong>Guided Co-Modulated GAN for 360° Field of View
+Extrapolation.</strong><br> <em>Mohammad Reza Karimi Dastjerdi, Yannick
+Hold-Geoffroy, Jonathan Eisenmann, Siavash Khodadadeh, Jean-François
+Lalonde.</em><br> 3DV 2022. [<a
+href="https://arxiv.org/abs/2204.07286">PDF</a>] [<a
+href="https://lvsn.github.io/ImmerseGAN/">Project</a>]<br></p></li>
+<li><p><strong>OPa-Ma: Text Guided Mamba for 360-degree Image
+Out-painting.</strong><br> <em>Penglei Gao, Kai Yao, Tiandi Ye, Steven
+Wang, Yuan Yao, Xiaofeng Wang.</em><br> arxiv 2024. [<a
+href="https://arxiv.org/abs/2407.10923">PDF</a>] <a
+href="https://github.com/PengleiGao/OPaMa">[Code]</a><br></p></li>
+<li><p><strong>Diffusion360: Seamless 360 Degree Panoramic Image
+Generation based on Diffusion Models.</strong><br> <em>Mengyang Feng,
+Jinlin Liu, Miaomiao Cui, Xuansong Xie.</em><br> arxiv 2024. [<a
+href="https://arxiv.org/abs/2311.13141">PDF</a>] <a
+href="https://github.com/ArcherFMY/SD-T2I-360PanoImage">[Code]</a><br></p></li>
+</ul>
+
+<h2 id="emerging-3d-applications">Emerging 3D Applications</h2>
+<ul>
+<li><p><strong>DreamScene360: Unconstrained Text-to-3D Scene Generation
+with Panoramic Gaussian Splatting.</strong><br> <em>Shijie Zhou, Zhiwen
+Fan, Dejia Xu, Haoran Chang, Pradyumna Chari, Tejas Bharadwaj, Suya You,
+Zhangyang Wang, Achuta Kadambi.</em><br> ECCV 2024. [<a
+href="https://arxiv.org/abs/2404.06903">PDF</a>] [<a
+href="https://dreamscene360.github.io/">Project</a>] <a
+href="https://github.com/ShijieZhou-UCLA/DreamScene360">[Code]</a><br></p></li>
+<li><p><strong>FastScene: Text-Driven Fast 3D Indoor Scene Generation
+via Panoramic Gaussian Splatting.</strong><br> <em>Yikun Ma, Dandan
+Zhan, Zhi Jin.</em><br> IJCAI 2024. [<a
+href="https://arxiv.org/abs/2405.05768">PDF</a>] <a
+href="https://github.com/Mr-Ma-yikun/FastScene">[Code]</a><br></p></li>
+<li><p><strong>SceneDreamer360: Text-Driven 3D-Consistent Scene
+Generation with Panoramic Gaussian Splatting.</strong><br> <em>Wenrui
+Li, Yapeng Mi, Fucheng Cai, Zhe Yang, Wangmeng Zuo, Xingtao Wang,
+Xiaopeng Fan.</em><br> arxiv 2024. [<a
+href="https://arxiv.org/abs/2408.13711">PDF</a>] [<a
+href="https://scenedreamer360.github.io/">Project</a>] <a
+href="https://github.com/liwrui/SceneDreamer360">[Code]</a><br></p></li>
+<li><p><strong>LayerPano3D: Layered 3D Panorama for Hyper-Immersive
+Scene Generation.</strong><br> <em>Shuai Yang, Jing Tan, Mengchen Zhang,
+Tong Wu, Yixuan Li, Gordon Wetzstein, Ziwei Liu, Dahua Lin.</em><br>
+arxiv 2024. [<a href="https://arxiv.org/abs/2408.13252">PDF</a>] [<a
+href="https://ys-imtech.github.io/projects/LayerPano3D/">Project</a>] <a
+href="https://github.com/YS-IMTech/LayerPano3D">[Code]</a><br></p></li>
+<li><p><strong>HoloDreamer: Holistic 3D Panoramic World Generation from
+Text Descriptions.</strong><br> <em>Haiyang Zhou, Xinhua Cheng, Wangbo
+Yu, Yonghong Tian, Li Yuan.</em><br> arxiv 2024. [<a
+href="https://arxiv.org/abs/2407.15187">PDF</a>] [<a
+href="https://zhouhyocean.github.io/holodreamer/">Project</a>] <a
+href="https://github.com/zhouhyOcean/HoloDreamer">[Code]</a><br></p></li>
+</ul>
+
+<h2 id="benchmark">Benchmark</h2>
+<p>Quantitative Comparison of Representative Text-Driven 360-Degree
+Panorama Generation. We employ an out-of-domain dataset, <a
+href="https://github.com/wangh-allen/LAU-Net">ODI-SR</a>, on which none
+of the models have been explicitly trained. Metrics are based on <a
+href="#evaluation-metrics">evaluation criteria</a>. Inference time is
+for generating a 1024×512 panorama. The <strong>best</strong> and
+<em>second-best</em> results are highlighted.</p>
+<table style="width:100%;">
+<colgroup>
+<col style="width: 27%" />
+<col style="width: 8%" />
+<col style="width: 10%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 9%" />
+<col style="width: 8%" />
+<col style="width: 10%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Method</th>
+<th>FID</th>
+<th>KID (×10⁻²)</th>
+<th>IS</th>
+<th>CS</th>
+<th>FAED</th>
+<th>OmniFID</th>
+<th>DS</th>
+<th>Time (s)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Text-Only Generation</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Text2Light</td>
+<td>72.63</td>
+<td><em>1.54</em></td>
+<td>5.35</td>
+<td><strong>19.20</strong></td>
+<td>18.10</td>
+<td>99.81</td>
+<td>5.38</td>
+<td>33</td>
+</tr>
+<tr class="odd">
+<td>Diffusion360</td>
+<td><em>70.32</em></td>
+<td>2.00</td>
+<td>5.29</td>
+<td>18.74</td>
+<td><strong>12.43</strong></td>
+<td><em>92.23</em></td>
+<td><em>0.94</em></td>
+<td><strong>3</strong></td>
+</tr>
+<tr class="even">
+<td>StitchDiffusion</td>
+<td>76.69</td>
+<td>2.04</td>
+<td><strong>7.36</strong></td>
+<td><strong>19.20</strong></td>
+<td>15.58</td>
+<td>108.63</td>
+<td>1.07</td>
+<td><em>28</em></td>
+</tr>
+<tr class="odd">
+<td>PanFusion</td>
+<td><strong>61.23</strong></td>
+<td><strong>1.07</strong></td>
+<td><em>6.16</em></td>
+<td><em>18.96</em></td>
+<td><em>13.16</em></td>
+<td><strong>92.22</strong></td>
+<td><strong>0.85</strong></td>
+<td>30</td>
+</tr>
+<tr class="even">
+<td><strong>Text-Driven NFoV Outpainting</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>PanoDiff</td>
+<td><em>65.94</em></td>
+<td><em>2.44</em></td>
+<td><strong>4.72</strong></td>
+<td><strong>19.02</strong></td>
+<td><em>10.24</em></td>
+<td><em>122.30</em></td>
+<td><em>1.10</em></td>
+<td><em>48</em></td>
+</tr>
+<tr class="even">
+<td>Diffusion360</td>
+<td><strong>64.19</strong></td>
+<td><strong>2.05</strong></td>
+<td><em>4.53</em></td>
+<td><em>17.92</em></td>
+<td><strong>5.50</strong></td>
+<td><strong>101.39</strong></td>
+<td><strong>0.72</strong></td>
+<td><strong>4</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="dataset">Dataset</h2>
+<p>Summary of popular datasets used in text-driven 360-degree panorama
+generation.</p>
+<table>
+<colgroup>
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 13%" />
+<col style="width: 11%" />
+<col style="width: 12%" />
+<col style="width: 39%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;"><strong>Dataset</strong></th>
+<th style="text-align: center;"><strong>Year</strong></th>
+<th style="text-align: center;"><strong>Category</strong></th>
+<th style="text-align: center;"><strong># Samples</strong></th>
+<th style="text-align: center;"><strong>Resolution</strong></th>
+<th style="text-align: center;"><strong>License</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;"><a
+href="https://vision.cs.princeton.edu/projects/2012/SUN360/data/">SUN360</a></td>
+<td style="text-align: center;">2012</td>
+<td style="text-align: center;">I &amp; O</td>
+<td style="text-align: center;">67,583</td>
+<td style="text-align: center;">9104 × 4552</td>
+<td style="text-align: center;"><a
+href="https://3dvision.princeton.edu/projects/2012/SUN360/">Custom</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><a
+href="https://niessner.github.io/Matterport/">Matterport3D</a></td>
+<td style="text-align: center;">2017</td>
+<td style="text-align: center;">I</td>
+<td style="text-align: center;">10,800</td>
+<td style="text-align: center;">2048 x 1024</td>
+<td style="text-align: center;"><a
+href="https://kaldir.vc.in.tum.de/matterport/MP_TOS.pdf">Custom</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;"><a href="http://hdrdb.com/indoor/">Laval
+Indoor</a></td>
+<td style="text-align: center;">2017</td>
+<td style="text-align: center;">I</td>
+<td style="text-align: center;">2,233</td>
+<td style="text-align: center;">7668 × 3884</td>
+<td style="text-align: center;"><a
+href="https://www.dropbox.com/scl/fi/r6niq8zmm0w03xgswj4b7/Laval-Indoor-HDR-Database-EULA.pdf?rlkey=yeetamvzevcmxrkcf9hy23ita&amp;e=1&amp;dl=0">Custom</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><a
+href="http://hdrdb.com/outdoor/">Laval Outdoor</a></td>
+<td style="text-align: center;">2019</td>
+<td style="text-align: center;">O</td>
+<td style="text-align: center;">205</td>
+<td style="text-align: center;">7668 × 3884</td>
+<td style="text-align: center;"><a
+href="https://www.dropbox.com/scl/fi/17pka14s69c8c02gnpqg4/Laval-Outdoor-HDR-Database-EULA.pdf?rlkey=ptb0j0l46aj08laion6y551e3&amp;e=1&amp;dl=0">Custom</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;"><a
+href="https://structured3d-dataset.org/">Structured3D</a></td>
+<td style="text-align: center;">2020</td>
+<td style="text-align: center;">I</td>
+<td style="text-align: center;">196,515</td>
+<td style="text-align: center;">1024 × 512</td>
+<td style="text-align: center;"><a
+href="https://drive.google.com/file/d/13ZwWpU_557ZQccwOUJ8H5lvXD7MeZFMa/view">Custom</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><a
+href="https://spec.is.tue.mpg.de/">Pano360</a></td>
+<td style="text-align: center;">2021</td>
+<td style="text-align: center;">I &amp; O</td>
+<td style="text-align: center;">35,000</td>
+<td style="text-align: center;">8192 × 4096</td>
+<td style="text-align: center;"><a
+href="https://spec.is.tue.mpg.de/license.html">Custom</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;"><a
+href="https://polyhaven.com/hdris">Polyhaven</a></td>
+<td style="text-align: center;">2025</td>
+<td style="text-align: center;">I &amp; O</td>
+<td style="text-align: center;">786</td>
+<td style="text-align: center;">8192 × 4096</td>
+<td style="text-align: center;"><a
+href="https://polyhaven.com/license">CC0</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><a
+href="https://www.humus.name/index.php?page=Textures">Humus</a></td>
+<td style="text-align: center;">2025</td>
+<td style="text-align: center;">I &amp; O</td>
+<td style="text-align: center;">139</td>
+<td style="text-align: center;">8192 × 4096</td>
+<td style="text-align: center;"><a
+href="https://www.humus.name/index.php?page=Textures">CC BY 3.0</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="evaluation-metrics">Evaluation Metrics</h2>
+<h3 id="universal-metrics">Universal Metrics</h3>
+<ul>
+<li><p>Fréchet Inception Distance (FID) <a
+href="https://lightning.ai/docs/torchmetrics/stable/image/frechet_inception_distance.html">code</a></p></li>
+<li><p>Kernel Inception Distance (KID) <a
+href="https://lightning.ai/docs/torchmetrics/stable/image/kernel_inception_distance.html">code</a></p></li>
+<li><p>Inception Score (IS) <a
+href="https://lightning.ai/docs/torchmetrics/stable/image/inception_score.html">code</a></p></li>
+<li><p>CLIP Score (CS) <a
+href="https://lightning.ai/docs/torchmetrics/stable/multimodal/clip_score.html">code</a></p></li>
+</ul>
+<h3 id="panoramic-specific-metrics">Panoramic-Specific Metrics</h3>
+<ul>
+<li><p>Fréchet Auto-Encoder Distance (FAED) <a
+href="https://github.com/chengzhag/PanFusion">code</a></p></li>
+<li><p>Omnidirectional FID (OmniFID) <a
+href="https://link.springer.com/chapter/10.1007/978-3-031-72989-8_16">paper</a></p></li>
+<li><p>Discontinuity Score (DS) <a
+href="https://link.springer.com/chapter/10.1007/978-3-031-72989-8_16">paper</a></p></li>
+</ul>
+</div>
