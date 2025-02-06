@@ -1,5 +1,7 @@
 # A Survey on Text-Driven 360-Degree Panorama Generation
 
+## Introduction
+
 ## Text-Driven 360-degree panorama generation
 
 ### Text-Only Generation
