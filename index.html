@@ -1,11 +1,5 @@
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
-<head>
-<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
-<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-<link rel="stylesheet" href="jemdoc.css" type="text/css" />
-</head>
-
-<h1 id="text-driven-360-degree-panorama-generation">Text-Driven 360-Degree Panorama Generation</h1>
+<h1 id="text-driven-360-degree-panorama-generation">Text-Driven
+360-Degree Panorama Generation</h1>
 <p><a href="https://awesome.re"><img src="https://awesome.re/badge.svg"
 alt="Awesome" /></a> <img
 src="https://img.shields.io/badge/PRs-Welcome-green"
@@ -15,9 +9,6 @@ alt="Stars" /> <a
 href="https://badges.pufler.dev/visits/littlewhitesea/Text-Driven-Pano-Gen"><img
 src="https://badges.pufler.dev/visits/littlewhitesea/Text-Driven-Pano-Gen"
 alt="Visits Badge" /></a></p>
-</div>
-
-<div id="layout-content">
 <h2 id="introduction">Introduction</h2>
 <p>This project lists representative papers/codes/datasets about
 <strong>Text-Driven 360-Degree Panorama Generation</strong>, which aims
@@ -26,9 +17,7 @@ the best of our knowledge.</p>
 <p>We aim to constantly update the latest relevant papers and help the
 community track this topic. If you find any missed resources or errors,
 please feel free to open an issue or make a pull request.</p>
-
 <h2 id="text-only-generation">Text-Only Generation</h2>
-
 <p>Text-only generation focuses on synthesizing 360-degree panoramas
 from textual descriptions only.</p>
 <ul>
@@ -73,7 +62,6 @@ Jinlin Liu, Miaomiao Cui, Xuansong Xie.</em><br> arxiv 2023. [<a
 href="https://arxiv.org/abs/2311.13141">PDF</a>] <a
 href="https://github.com/ArcherFMY/SD-T2I-360PanoImage">[Code]</a><br></p></li>
 </ul>
-
 <h2 id="text-driven-nfov-outpainting">Text-Driven NFoV Outpainting</h2>
 <p>Text-driven narrow field-of-view (NFoV) outpainting enhances user
 control by conditioning the generation process on both textual prompts
@@ -112,8 +100,10 @@ Jinlin Liu, Miaomiao Cui, Xuansong Xie.</em><br> arxiv 2024. [<a
 href="https://arxiv.org/abs/2311.13141">PDF</a>] <a
 href="https://github.com/ArcherFMY/SD-T2I-360PanoImage">[Code]</a><br></p></li>
 </ul>
-
 <h2 id="emerging-3d-applications">Emerging 3D Applications</h2>
+<p>Recent text-driven 360-degree 3D scene generation methods utilize
+360-degree panorama generation to bridge the gap between text prompts
+and 360-degree 3D scene reconstruction.</p>
 <ul>
 <li><p><strong>DreamScene360: Unconstrained Text-to-3D Scene Generation
 with Panoramic Gaussian Splatting.</strong><br> <em>Shijie Zhou, Zhiwen
@@ -147,7 +137,6 @@ href="https://arxiv.org/abs/2407.15187">PDF</a>] [<a
 href="https://zhouhyocean.github.io/holodreamer/">Project</a>] <a
 href="https://github.com/zhouhyOcean/HoloDreamer">[Code]</a><br></p></li>
 </ul>
-
 <h2 id="benchmark">Benchmark</h2>
 <p>Quantitative Comparison of Representative Text-Driven 360-Degree
 Panorama Generation. We employ an out-of-domain dataset, <a
@@ -156,33 +145,33 @@ of the models have been explicitly trained. Metrics are based on <a
 href="#evaluation-metrics">evaluation criteria</a>. Inference time is
 for generating a 1024×512 panorama. The <strong>best</strong> and
 <em>second-best</em> results are highlighted.</p>
-<table style="width:100%;">
+<table>
 <colgroup>
-<col style="width: 27%" />
-<col style="width: 8%" />
+<col style="width: 26%" />
+<col style="width: 9%" />
 <col style="width: 10%" />
 <col style="width: 8%" />
 <col style="width: 8%" />
 <col style="width: 8%" />
 <col style="width: 9%" />
-<col style="width: 8%" />
+<col style="width: 7%" />
 <col style="width: 10%" />
 </colgroup>
 <thead>
-<tr class="header">
+<tr>
 <th>Method</th>
-<th>FID</th>
-<th>KID (×10⁻²)</th>
-<th>IS</th>
-<th>CS</th>
-<th>FAED</th>
-<th>OmniFID</th>
-<th>DS</th>
+<th>FID ↓</th>
+<th>KID (×10⁻²) ↓</th>
+<th>IS ↑</th>
+<th>CS ↑</th>
+<th>FAED ↓</th>
+<th>OmniFID ↓</th>
+<th>DS ↓</th>
 <th>Time (s)</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><strong>Text-Only Generation</strong></td>
 <td></td>
 <td></td>
@@ -193,7 +182,7 @@ for generating a 1024×512 panorama. The <strong>best</strong> and
 <td></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td>Text2Light</td>
 <td>72.63</td>
 <td><em>1.54</em></td>
@@ -204,7 +193,7 @@ for generating a 1024×512 panorama. The <strong>best</strong> and
 <td>5.38</td>
 <td>33</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Diffusion360</td>
 <td><em>70.32</em></td>
 <td>2.00</td>
@@ -215,7 +204,7 @@ for generating a 1024×512 panorama. The <strong>best</strong> and
 <td><em>0.94</em></td>
 <td><strong>3</strong></td>
 </tr>
-<tr class="even">
+<tr>
 <td>StitchDiffusion</td>
 <td>76.69</td>
 <td>2.04</td>
@@ -226,7 +215,7 @@ for generating a 1024×512 panorama. The <strong>best</strong> and
 <td>1.07</td>
 <td><em>28</em></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>PanFusion</td>
 <td><strong>61.23</strong></td>
 <td><strong>1.07</strong></td>
@@ -237,7 +226,7 @@ for generating a 1024×512 panorama. The <strong>best</strong> and
 <td><strong>0.85</strong></td>
 <td>30</td>
 </tr>
-<tr class="even">
+<tr>
 <td><strong>Text-Driven NFoV Outpainting</strong></td>
 <td></td>
 <td></td>
@@ -248,7 +237,7 @@ for generating a 1024×512 panorama. The <strong>best</strong> and
 <td></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>PanoDiff</td>
 <td><em>65.94</em></td>
 <td><em>2.44</em></td>
@@ -259,7 +248,7 @@ for generating a 1024×512 panorama. The <strong>best</strong> and
 <td><em>1.10</em></td>
 <td><em>48</em></td>
 </tr>
-<tr class="even">
+<tr>
 <td>Diffusion360</td>
 <td><strong>64.19</strong></td>
 <td><strong>2.05</strong></td>
@@ -274,7 +263,8 @@ for generating a 1024×512 panorama. The <strong>best</strong> and
 </table>
 <h2 id="dataset">Dataset</h2>
 <p>Summary of popular datasets used in text-driven 360-degree panorama
-generation.</p>
+generation. Categories are indoor (I), outdoor (O), or hybrid (I,
+O).</p>
 <table>
 <colgroup>
 <col style="width: 11%" />
@@ -285,7 +275,7 @@ generation.</p>
 <col style="width: 39%" />
 </colgroup>
 <thead>
-<tr class="header">
+<tr>
 <th style="text-align: center;"><strong>Dataset</strong></th>
 <th style="text-align: center;"><strong>Year</strong></th>
 <th style="text-align: center;"><strong>Category</strong></th>
@@ -295,7 +285,7 @@ generation.</p>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td style="text-align: center;"><a
 href="https://vision.cs.princeton.edu/projects/2012/SUN360/data/">SUN360</a></td>
 <td style="text-align: center;">2012</td>
@@ -305,7 +295,7 @@ href="https://vision.cs.princeton.edu/projects/2012/SUN360/data/">SUN360</a></td
 <td style="text-align: center;"><a
 href="https://3dvision.princeton.edu/projects/2012/SUN360/">Custom</a></td>
 </tr>
-<tr class="even">
+<tr>
 <td style="text-align: center;"><a
 href="https://niessner.github.io/Matterport/">Matterport3D</a></td>
 <td style="text-align: center;">2017</td>
@@ -315,7 +305,7 @@ href="https://niessner.github.io/Matterport/">Matterport3D</a></td>
 <td style="text-align: center;"><a
 href="https://kaldir.vc.in.tum.de/matterport/MP_TOS.pdf">Custom</a></td>
 </tr>
-<tr class="odd">
+<tr>
 <td style="text-align: center;"><a href="http://hdrdb.com/indoor/">Laval
 Indoor</a></td>
 <td style="text-align: center;">2017</td>
@@ -325,7 +315,7 @@ Indoor</a></td>
 <td style="text-align: center;"><a
 href="https://www.dropbox.com/scl/fi/r6niq8zmm0w03xgswj4b7/Laval-Indoor-HDR-Database-EULA.pdf?rlkey=yeetamvzevcmxrkcf9hy23ita&amp;e=1&amp;dl=0">Custom</a></td>
 </tr>
-<tr class="even">
+<tr>
 <td style="text-align: center;"><a
 href="http://hdrdb.com/outdoor/">Laval Outdoor</a></td>
 <td style="text-align: center;">2019</td>
@@ -335,7 +325,7 @@ href="http://hdrdb.com/outdoor/">Laval Outdoor</a></td>
 <td style="text-align: center;"><a
 href="https://www.dropbox.com/scl/fi/17pka14s69c8c02gnpqg4/Laval-Outdoor-HDR-Database-EULA.pdf?rlkey=ptb0j0l46aj08laion6y551e3&amp;e=1&amp;dl=0">Custom</a></td>
 </tr>
-<tr class="odd">
+<tr>
 <td style="text-align: center;"><a
 href="https://structured3d-dataset.org/">Structured3D</a></td>
 <td style="text-align: center;">2020</td>
@@ -345,7 +335,7 @@ href="https://structured3d-dataset.org/">Structured3D</a></td>
 <td style="text-align: center;"><a
 href="https://drive.google.com/file/d/13ZwWpU_557ZQccwOUJ8H5lvXD7MeZFMa/view">Custom</a></td>
 </tr>
-<tr class="even">
+<tr>
 <td style="text-align: center;"><a
 href="https://spec.is.tue.mpg.de/">Pano360</a></td>
 <td style="text-align: center;">2021</td>
@@ -355,7 +345,7 @@ href="https://spec.is.tue.mpg.de/">Pano360</a></td>
 <td style="text-align: center;"><a
 href="https://spec.is.tue.mpg.de/license.html">Custom</a></td>
 </tr>
-<tr class="odd">
+<tr>
 <td style="text-align: center;"><a
 href="https://polyhaven.com/hdris">Polyhaven</a></td>
 <td style="text-align: center;">2025</td>
@@ -365,7 +355,7 @@ href="https://polyhaven.com/hdris">Polyhaven</a></td>
 <td style="text-align: center;"><a
 href="https://polyhaven.com/license">CC0</a></td>
 </tr>
-<tr class="even">
+<tr>
 <td style="text-align: center;"><a
 href="https://www.humus.name/index.php?page=Textures">Humus</a></td>
 <td style="text-align: center;">2025</td>
@@ -398,4 +388,3 @@ href="https://link.springer.com/chapter/10.1007/978-3-031-72989-8_16">paper</a><
 <li><p>Discontinuity Score (DS) <a
 href="https://link.springer.com/chapter/10.1007/978-3-031-72989-8_16">paper</a></p></li>
 </ul>
-</div>
