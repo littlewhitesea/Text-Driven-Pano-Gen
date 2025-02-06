@@ -86,7 +86,7 @@ IJCAI 2024. [[PDF](https://arxiv.org/abs/2405.05768)] [[Code]](https://github.co
 
 Summary of popular datasets used in text-driven 360-degree panorama generation.
 
-|  **dataset**  | **year**     | **category**    | **# samples** | **resolution** |  **license**                                     |
+|  **Dataset**  | **Year**     | **Category**    | **# Samples** | **Resolution** |  **License**                                     |
 |:-------------:|:------------:|:---------------:|:-------------:|:--------------:|:------------------------------------------------:|
 | [SUN360](https://vision.cs.princeton.edu/projects/2012/SUN360/data/)        | 2012         | I & O            | 67,583       | 9104 × 4552    |  [Custom](https://3dvision.princeton.edu/projects/2012/SUN360/)                                                |
 | [Matterport3D](https://niessner.github.io/Matterport/)  | 2017         | I                | 10,800       | 2048 x 1024    |  [Custom](https://kaldir.vc.in.tum.de/matterport/MP_TOS.pdf)                                                |
