@@ -70,6 +70,8 @@ arxiv 2024. [[PDF](https://arxiv.org/abs/2311.13141)] [[Code]](https://github.co
 
 ## Emerging 3D Applications
 
+Recent text-driven 360-degree 3D scene generation methods utilize 360-degree panorama generation to bridge the gap between text prompts and 360-degree 3D scene reconstruction.
+
 * **DreamScene360: Unconstrained Text-to-3D Scene Generation with Panoramic Gaussian Splatting.**<br>
 *Shijie Zhou, Zhiwen Fan, Dejia Xu, Haoran Chang, Pradyumna Chari, Tejas Bharadwaj, Suya You, Zhangyang Wang, Achuta Kadambi.*<br>
 ECCV 2024. [[PDF](https://arxiv.org/abs/2404.06903)] [[Project](https://dreamscene360.github.io/)]  [[Code]](https://github.com/ShijieZhou-UCLA/DreamScene360)<br>
@@ -94,20 +96,20 @@ arxiv 2024. [[PDF](https://arxiv.org/abs/2407.15187)] [[Project](https://zhouhyo
 
 Quantitative Comparison of Representative Text-Driven 360-Degree Panorama Generation. We employ an out-of-domain dataset, [ODI-SR](https://github.com/wangh-allen/LAU-Net), on which none of the models have been explicitly trained. Metrics are based on [evaluation criteria](#evaluation-metrics). Inference time is for generating a 1024×512 panorama. The **best** and _second-best_ results are highlighted. 
 
-| Method                           | FID       | KID (×10⁻²) | IS       | CS        | FAED      | OmniFID    | DS       | Time (s) |
-|----------------------------------|-----------|-------------|----------|-----------|-----------|------------|----------|-------------|
-| **Text-Only Generation**         |           |             |          |           |           |            |          |             |
-| Text2Light                       | 72.63     | _1.54_      | 5.35     | **19.20** | 18.10     | 99.81      | 5.38     | 33          |
-| Diffusion360                     | _70.32_   | 2.00        | 5.29     | 18.74     | **12.43** | _92.23_    | _0.94_   | **3**       |
-| StitchDiffusion                  | 76.69     | 2.04        | **7.36** | **19.20** | 15.58     | 108.63     | 1.07     | _28_        |
-| PanFusion                        | **61.23** | **1.07**    | _6.16_   | _18.96_   | _13.16_   | **92.22**  | **0.85** | 30          |
-| **Text-Driven NFoV Outpainting** |           |             |          |           |           |            |          |             |
-| PanoDiff                         | _65.94_   | _2.44_      | **4.72** | **19.02** | _10.24_   | _122.30_   | _1.10_   | _48_        |
-| Diffusion360                     | **64.19** | **2.05**    | _4.53_   | _17.92_   | **5.50**  | **101.39** | **0.72** | **4**       |
+| Method                           | FID &darr; | KID (×10⁻²) &darr; | IS &uarr; | CS &uarr; | FAED  &darr;    | OmniFID &darr;   | DS  &darr;     | Time (s) |
+|----------------------------------|------------|--------------|-----------|-----------|-----------|------------|----------|-------------|
+| **Text-Only Generation**         |            |              |           |           |           |            |          |             |
+| Text2Light                       | 72.63      | _1.54_       | 5.35      | **19.20** | 18.10     | 99.81      | 5.38     | 33          |
+| Diffusion360                     | _70.32_    | 2.00         | 5.29      | 18.74     | **12.43** | _92.23_    | _0.94_   | **3**       |
+| StitchDiffusion                  | 76.69      | 2.04         | **7.36**  | **19.20** | 15.58     | 108.63     | 1.07     | _28_        |
+| PanFusion                        | **61.23**  | **1.07**     | _6.16_    | _18.96_   | _13.16_   | **92.22**  | **0.85** | 30          |
+| **Text-Driven NFoV Outpainting** |            |              |           |           |           |            |          |             |
+| PanoDiff                         | _65.94_    | _2.44_       | **4.72**  | **19.02** | _10.24_   | _122.30_   | _1.10_   | _48_        |
+| Diffusion360                     | **64.19**  | **2.05**     | _4.53_    | _17.92_   | **5.50**  | **101.39** | **0.72** | **4**       |
 
 ## Dataset
 
-Summary of popular datasets used in text-driven 360-degree panorama generation.
+Summary of popular datasets used in text-driven 360-degree panorama generation. Categories are indoor (I), outdoor (O), or hybrid (I, O).
 
 |  **Dataset**  | **Year**     | **Category**    | **# Samples** | **Resolution** |  **License**                                     |
 |:-------------:|:------------:|:---------------:|:-------------:|:--------------:|:------------------------------------------------:|
