@@ -98,16 +98,111 @@ arxiv 2024. [[PDF](https://arxiv.org/abs/2407.15187)] [[Project](https://zhouhyo
 
 Quantitative Comparison of Representative Text-Driven 360-Degree Panorama Generation. We employ an out-of-domain dataset, [ODI-SR](https://github.com/wangh-allen/LAU-Net), on which none of the models have been explicitly trained. Metrics are based on [evaluation criteria](#evaluation-metrics). Inference time is for generating a 1024×512 panorama. The **best** and <ins>second-best</ins> results are highlighted.
 
-| Method                           | FID &darr; | KID (×10⁻²) &darr; | IS &uarr; | CS &uarr; | FAED &darr;  | OmniFID &darr; | DS &darr;  | Time (s) |
-|:---------------------------------|:---------:|:-----------------:|:--------:|:--------:|:----------:|:-------------:|:--------:|:--------:|
-| **Text-Only Generation**         |           |                   |          |          |            |               |          |          |
-| Text2Light                       | 72.63     | <ins>1.54</ins>   | 5.35     | **19.20**| 18.10      | 99.81         | 5.38     | 33       |
-| Diffusion360                     | <ins>70.32</ins> | 2.00       | 5.29     | 18.74   | **12.43**  | <ins>92.23</ins> | <ins>0.94</ins> | **3**    |
-| StitchDiffusion                  | 76.69     | 2.04              | **7.36** | **19.20**| 15.58      | 108.63        | 1.07     | <ins>28</ins> |
-| PanFusion                        | **61.23** | **1.07**          | <ins>6.16</ins> | <ins>18.96</ins> | <ins>13.16</ins> | **92.22**  | **0.85** | 30       |
-| **Text-Driven NFoV Outpainting** |           |                   |          |          |            |               |          |          |
-| PanoDiff                         | <ins>65.94</ins> | <ins>2.44</ins> | **4.72** | **19.02** | <ins>10.24</ins> | <ins>122.30</ins> | <ins>1.10</ins> | <ins>48</ins> |
-| Diffusion360                     | **64.19** | **2.05**          | <ins>4.53</ins> | <ins>17.92</ins> | **5.50**   | **101.39**    | **0.72** | **4**    |
+<table style="width: 100%; border-collapse: collapse;">
+  <colgroup>
+    <col style="width: 15%;">
+    <col style="width: 10%;">
+    <col style="width: 10%;">
+    <col style="width: 10%;">
+    <col style="width: 10%;">
+    <col style="width: 10%;">
+    <col style="width: 10%;">
+    <col style="width: 10%;">
+    <col style="width: 15%;">
+  </colgroup>
+  <thead>
+    <tr>
+      <th style="text-align: left;">Method</th>
+      <th style="text-align: center;">FID &darr;</th>
+      <th style="text-align: center;">KID (×10⁻²) &darr;</th>
+      <th style="text-align: center;">IS &uarr;</th>
+      <th style="text-align: center;">CS &uarr;</th>
+      <th style="text-align: center;">FAED &darr;</th>
+      <th style="text-align: center;">OmniFID &darr;</th>
+      <th style="text-align: center;">DS &darr;</th>
+      <th style="text-align: center;">Time (s)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- Category Row: Text-Only Generation -->
+    <tr>
+      <td colspan="9" style="text-align: center;"><strong>Text-Only Generation</strong></td>
+    </tr>
+    <!-- Data Rows for Text-Only Generation -->
+    <tr>
+      <td style="text-align: left;">Text2Light</td>
+      <td style="text-align: center;">72.63</td>
+      <td style="text-align: center;"><ins>1.54</ins></td>
+      <td style="text-align: center;">5.35</td>
+      <td style="text-align: center;"><strong>19.20</strong></td>
+      <td style="text-align: center;">18.10</td>
+      <td style="text-align: center;">99.81</td>
+      <td style="text-align: center;">5.38</td>
+      <td style="text-align: center;">33</td>
+    </tr>
+    <tr>
+      <td style="text-align: left;">Diffusion360</td>
+      <td style="text-align: center;"><ins>70.32</ins></td>
+      <td style="text-align: center;">2.00</td>
+      <td style="text-align: center;">5.29</td>
+      <td style="text-align: center;">18.74</td>
+      <td style="text-align: center;"><strong>12.43</strong></td>
+      <td style="text-align: center;"><ins>92.23</ins></td>
+      <td style="text-align: center;"><ins>0.94</ins></td>
+      <td style="text-align: center;"><strong>3</strong></td>
+    </tr>
+    <tr>
+      <td style="text-align: left;">StitchDiffusion</td>
+      <td style="text-align: center;">76.69</td>
+      <td style="text-align: center;">2.04</td>
+      <td style="text-align: center;"><strong>7.36</strong></td>
+      <td style="text-align: center;"><strong>19.20</strong></td>
+      <td style="text-align: center;">15.58</td>
+      <td style="text-align: center;">108.63</td>
+      <td style="text-align: center;">1.07</td>
+      <td style="text-align: center;"><ins>28</ins></td>
+    </tr>
+    <tr>
+      <td style="text-align: left;">PanFusion</td>
+      <td style="text-align: center;"><strong>61.23</strong></td>
+      <td style="text-align: center;"><strong>1.07</strong></td>
+      <td style="text-align: center;"><ins>6.16</ins></td>
+      <td style="text-align: center;"><ins>18.96</ins></td>
+      <td style="text-align: center;"><ins>13.16</ins></td>
+      <td style="text-align: center;"><strong>92.22</strong></td>
+      <td style="text-align: center;"><strong>0.85</strong></td>
+      <td style="text-align: center;">30</td>
+    </tr>
+    <!-- Category Row: Text-Driven NFoV Outpainting -->
+    <tr>
+      <td colspan="9" style="text-align: center;"><strong>Text-Driven NFoV Outpainting</strong></td>
+    </tr>
+    <!-- Data Rows for Text-Driven NFoV Outpainting -->
+    <tr>
+      <td style="text-align: left;">PanoDiff</td>
+      <td style="text-align: center;"><ins>65.94</ins></td>
+      <td style="text-align: center;"><ins>2.44</ins></td>
+      <td style="text-align: center;"><strong>4.72</strong></td>
+      <td style="text-align: center;"><strong>19.02</strong></td>
+      <td style="text-align: center;"><ins>10.24</ins></td>
+      <td style="text-align: center;"><ins>122.30</ins></td>
+      <td style="text-align: center;"><ins>1.10</ins></td>
+      <td style="text-align: center;"><ins>48</ins></td>
+    </tr>
+    <tr>
+      <td style="text-align: left;">Diffusion360</td>
+      <td style="text-align: center;"><strong>64.19</strong></td>
+      <td style="text-align: center;"><strong>2.05</strong></td>
+      <td style="text-align: center;"><ins>4.53</ins></td>
+      <td style="text-align: center;"><ins>17.92</ins></td>
+      <td style="text-align: center;"><strong>5.50</strong></td>
+      <td style="text-align: center;"><strong>101.39</strong></td>
+      <td style="text-align: center;"><strong>0.72</strong></td>
+      <td style="text-align: center;"><strong>4</strong></td>
+    </tr>
+  </tbody>
+</table>
+
 
 
 ## Dataset
