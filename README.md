@@ -94,18 +94,18 @@ arxiv 2024. [[PDF](https://arxiv.org/abs/2407.15187)] [[Project](https://zhouhyo
 
 ## Benchmark
 
-Quantitative Comparison of Representative Text-Driven 360-Degree Panorama Generation. We employ an out-of-domain dataset, [ODI-SR](https://github.com/wangh-allen/LAU-Net), on which none of the models have been explicitly trained. Metrics are based on [evaluation criteria](#evaluation-metrics). Inference time is for generating a 1024×512 panorama. The **best** and _second-best_ results are highlighted. 
+Quantitative Comparison of Representative Text-Driven 360-Degree Panorama Generation. We employ an out-of-domain dataset, [ODI-SR](https://github.com/wangh-allen/LAU-Net), on which none of the models have been explicitly trained. Metrics are based on [evaluation criteria](#evaluation-metrics). Inference time is for generating a 1024×512 panorama. The **best** and <u>second-best</u> results are highlighted. 
 
 | Method                           | FID &darr; | KID (×10⁻²) &darr; | IS &uarr; | CS &uarr; | FAED  &darr;    | OmniFID &darr;   | DS  &darr;     | Time (s) |
-|----------------------------------|------------|--------------|-----------|-----------|-----------|------------|----------|-------------|
-| **Text-Only Generation**         |            |              |           |           |           |            |          |             |
-| Text2Light                       | 72.63      | _1.54_       | 5.35      | **19.20** | 18.10     | 99.81      | 5.38     | 33          |
-| Diffusion360                     | _70.32_    | 2.00         | 5.29      | 18.74     | **12.43** | _92.23_    | _0.94_   | **3**       |
-| StitchDiffusion                  | 76.69      | 2.04         | **7.36**  | **19.20** | 15.58     | 108.63     | 1.07     | _28_        |
-| PanFusion                        | **61.23**  | **1.07**     | _6.16_    | _18.96_   | _13.16_   | **92.22**  | **0.85** | 30          |
-| **Text-Driven NFoV Outpainting** |            |              |           |           |           |            |          |             |
-| PanoDiff                         | _65.94_    | _2.44_       | **4.72**  | **19.02** | _10.24_   | _122.30_   | _1.10_   | _48_        |
-| Diffusion360                     | **64.19**  | **2.05**     | _4.53_    | _17.92_   | **5.50**  | **101.39** | **0.72** | **4**       |
+|----------------------------------|------------|--------------------|-----------|-----------|-----------------|-----------------|---------------|----------|
+| **Text-Only Generation**         |            |                    |           |           |                 |                 |               |          |
+| Text2Light                       | 72.63      | <u>1.54</u>        | 5.35      | **19.20** | 18.10           | 99.81           | 5.38          | 33       |
+| Diffusion360                     | <u>70.32</u>   | 2.00               | 5.29      | 18.74     | **12.43**       | <u>92.23</u>    | <u>0.94</u>   | **3**    |
+| StitchDiffusion                  | 76.69      | 2.04               | **7.36**  | **19.20** | 15.58           | 108.63          | 1.07          | <u>28</u>|
+| PanFusion                        | **61.23**  | **1.07**           | <u>6.16</u>  | <u>18.96</u> | <u>13.16</u>     | **92.22**       | **0.85**      | 30       |
+| **Text-Driven NFoV Outpainting** |            |                    |           |           |                 |                 |               |          |
+| PanoDiff                         | <u>65.94</u>   | <u>2.44</u>        | **4.72**  | **19.02** | <u>10.24</u>     | <u>122.30</u>   | <u>1.10</u>   | <u>48</u>|
+| Diffusion360                     | **64.19**  | **2.05**           | <u>4.53</u>  | <u>17.92</u> | **5.50**        | **101.39**      | **0.72**      | **4**   |
 
 ## Dataset
 
