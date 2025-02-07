@@ -1,11 +1,11 @@
 # Text-Driven 360-Degree Panorama Generation
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) 
+<a href='https://arxiv.org/abs/xxxx'>
+  <img src='https://img.shields.io/badge/Paper-Paper-green?style=flat&logo=arxiv&logoColor=green' alt='arxiv Paper'>
+</a>
 <a href='https://littlewhitesea.github.io/Text-Driven-Pano-Gen/' style='padding-left: 0.5rem;'>
   <img src='https://img.shields.io/badge/Project-Page-blue?style=flat&logo=Google%20chrome&logoColor=blue' alt='Project Page'>
 </a>
-![Stars](https://img.shields.io/github/stars/littlewhitesea/Text-Driven-Pano-Gen)
-[![Visits Badge](https://badges.pufler.dev/visits/littlewhitesea/Text-Driven-Pano-Gen)](https://badges.pufler.dev/visits/littlewhitesea/Text-Driven-Pano-Gen)
 
 
 ## Introduction
