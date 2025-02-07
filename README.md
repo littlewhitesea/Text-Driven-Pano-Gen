@@ -120,7 +120,7 @@ Quantitative Comparison of Representative Text-Driven 360-Degree Panorama Genera
       <th style="text-align: center;">FAED &darr;</th>
       <th style="text-align: center;">OmniFID &darr;</th>
       <th style="text-align: center;">DS &darr;</th>
-      <th style="text-align: center;">Time (s)</th>
+      <th style="text-align: center;">Inference (s)</th>
     </tr>
   </thead>
   <tbody>
