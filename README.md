@@ -1,7 +1,9 @@
 # Text-Driven 360-Degree Panorama Generation
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) 
-![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-green) 
+<a href='https://littlewhitesea.github.io/Text-Driven-Pano-Gen/' style='padding-left: 0.5rem;'>
+  <img src='https://img.shields.io/badge/Project-Page-blue?style=flat&logo=Google%20chrome&logoColor=blue' alt='Project Page'>
+</a>
 ![Stars](https://img.shields.io/github/stars/littlewhitesea/Text-Driven-Pano-Gen)
 [![Visits Badge](https://badges.pufler.dev/visits/littlewhitesea/Text-Driven-Pano-Gen)](https://badges.pufler.dev/visits/littlewhitesea/Text-Driven-Pano-Gen)
 
