@@ -1,4 +1,5 @@
-# Text-Driven 360-Degree Panorama Generation
+<span style="font-size: 2em;">A Survey on Text-Driven 360-Degree Panorama Generation</span>
+
 
 <a href='https://arxiv.org/abs/xxxx'>
   <img src='https://img.shields.io/badge/Paper-Paper-green?style=flat&logo=arxiv&logoColor=green' alt='arxiv Paper'>
