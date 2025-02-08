@@ -1,4 +1,4 @@
-<span style="font-size: 2em;">A Survey on Text-Driven 360-Degree Panorama Generation</span>
+## A Survey on Text-Driven 360-Degree Panorama Generation
 
 
 <a href='https://arxiv.org/abs/xxxx'>
@@ -9,13 +9,13 @@
 </a>
 
 
-## Introduction
+### Introduction
 
 This project lists representative papers/codes/datasets about **Text-Driven 360-Degree Panorama Generation**, which aims to comprehensively and systematically summarize the recent advances to the best of our knowledge.
 
 We aim to constantly update the latest relevant papers and help the community track this topic. If you find any missed resources or errors, please feel free to open an issue or make a pull request.
 
-## Text-Only Generation
+### Text-Only Generation
 
 Text-only generation focuses on synthesizing 360-degree panoramas from textual descriptions only.
 
@@ -43,7 +43,7 @@ TOG 2022 (SIGGRAPH Asia). [[PDF](https://arxiv.org/abs/2209.09898)] [[Project](h
 *Mengyang Feng, Jinlin Liu, Miaomiao Cui, Xuansong Xie.*<br>
 arxiv 2023. [[PDF](https://arxiv.org/abs/2311.13141)] [[Code]](https://github.com/ArcherFMY/SD-T2I-360PanoImage)<br>
 
-## Text-Driven NFoV Outpainting
+### Text-Driven NFoV Outpainting
 
 Text-driven narrow field-of-view (NFoV) outpainting enhances user control by conditioning the generation process on both textual prompts and initial narrow NFoV images.
 
@@ -71,7 +71,7 @@ arxiv 2024. [[PDF](https://arxiv.org/abs/2407.10923)] [[Code]](https://github.co
 *Mengyang Feng, Jinlin Liu, Miaomiao Cui, Xuansong Xie.*<br>
 arxiv 2024. [[PDF](https://arxiv.org/abs/2311.13141)] [[Code]](https://github.com/ArcherFMY/SD-T2I-360PanoImage)<br>
 
-## Emerging 3D Applications
+### Emerging 3D Applications
 
 Recent text-driven 360-degree 3D scene generation methods utilize 360-degree panorama generation to bridge the gap between text prompts and 360-degree 3D scene reconstruction.
 
@@ -95,7 +95,7 @@ arxiv 2024. [[PDF](https://arxiv.org/abs/2408.13252)] [[Project](https://ys-imte
 *Haiyang Zhou, Xinhua Cheng, Wangbo Yu, Yonghong Tian, Li Yuan.*<br>
 arxiv 2024. [[PDF](https://arxiv.org/abs/2407.15187)] [[Project](https://zhouhyocean.github.io/holodreamer/)] [[Code]](https://github.com/zhouhyOcean/HoloDreamer)<br>
 
-## Benchmark
+### Benchmark
 
 Quantitative Comparison of Representative Text-Driven 360-Degree Panorama Generation. We employ an out-of-domain dataset, [ODI-SR](https://github.com/wangh-allen/LAU-Net), on which none of the models have been explicitly trained. Metrics are based on [evaluation criteria](#evaluation-metrics). Inference time is for generating a 1024×512 panorama. The **best** and <ins>second-best</ins> results are highlighted.
 
@@ -206,7 +206,7 @@ Quantitative Comparison of Representative Text-Driven 360-Degree Panorama Genera
 
 
 
-## Dataset
+### Dataset
 
 Summary of popular datasets used in text-driven 360-degree panorama generation. Categories are indoor (I), outdoor (O), or hybrid (I, O).
 
@@ -221,9 +221,9 @@ Summary of popular datasets used in text-driven 360-degree panorama generation. 
 | [Polyhaven](https://polyhaven.com/hdris)     | 2025            | I & O            | 786          | 8192  × 4096   | [CC0](https://polyhaven.com/license)             |
 | [Humus](https://www.humus.name/index.php?page=Textures)         | 2025            | I & O            | 139          | 8192  × 4096   | [CC BY 3.0](https://www.humus.name/index.php?page=Textures)                                                |
 
-## Evaluation Metrics
+### Evaluation Metrics
 
-### Universal Metrics
+#### Universal Metrics
 
 * Fréchet Inception Distance (FID) [code](https://lightning.ai/docs/torchmetrics/stable/image/frechet_inception_distance.html)
 
@@ -233,7 +233,7 @@ Summary of popular datasets used in text-driven 360-degree panorama generation. 
 
 * CLIP Score (CS) [code](https://lightning.ai/docs/torchmetrics/stable/multimodal/clip_score.html)
 
-### Panoramic-Specific Metrics
+#### Panoramic-Specific Metrics
 
 * Fréchet Auto-Encoder Distance (FAED) [code](https://github.com/chengzhag/PanFusion)
 
