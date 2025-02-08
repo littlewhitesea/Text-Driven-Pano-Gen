@@ -233,7 +233,7 @@ Summary of popular datasets used in text-driven 360-degree panorama generation. 
 
 * CLIP Score (CS) [code](https://lightning.ai/docs/torchmetrics/stable/multimodal/clip_score.html)
 
-#### Panoramic-Specific Metrics
+#### Panorama-Specific Metrics
 
 * Fréchet Auto-Encoder Distance (FAED) [code](https://github.com/chengzhag/PanFusion)
 
