@@ -11,7 +11,7 @@
 
 ### Introduction
 
-This project lists representative papers/codes/datasets about **Text-Driven 360-Degree Panorama Generation**, which aims to comprehensively and systematically summarize the recent advances to the best of our knowledge.
+This project lists representative papers/codes/datasets about **Text-Driven 360-Degree Panorama Generation**, which aims to comprehensively and systematically summarize the recent advances from 2022 to 2025 to the best of our knowledge.
 
 We aim to constantly update the latest relevant papers and help the community track this topic. If you find any missed resources or errors, please feel free to open an issue or make a pull request.
 
