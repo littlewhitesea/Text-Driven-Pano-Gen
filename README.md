@@ -1,7 +1,7 @@
 ## A Survey on Text-Driven 360-Degree Panorama Generation
 
 
-<a href='https://arxiv.org/abs/xxxx'>
+<a href='https://arxiv.org/abs/2502.14799'>
   <img src='https://img.shields.io/badge/Paper-Paper-green?style=flat&logo=arxiv&logoColor=green' alt='arxiv Paper'>
 </a>
 <a href='https://littlewhitesea.github.io/Text-Driven-Pano-Gen/' style='padding-left: 0.5rem;'>
