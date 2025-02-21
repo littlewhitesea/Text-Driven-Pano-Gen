@@ -240,3 +240,17 @@ Summary of popular datasets used in text-driven 360-degree panorama generation. 
 * Omnidirectional FID (OmniFID) [paper](https://link.springer.com/chapter/10.1007/978-3-031-72989-8_16)
 
 * Discontinuity Score (DS) [paper](https://link.springer.com/chapter/10.1007/978-3-031-72989-8_16)
+
+
+### Citation
+
+If this repository benefits your research, please consider citing our paper.
+
+```bibtex
+@article{wang2025survey,
+    author  = {Wang, Hai and Xiang, Xiaoyu and Xia, Weihao and Xue, Jing-Hao},
+    title   = {A Survey on Text-Driven 360-Degree Panorama Generation},
+    journal = {arxiv preprint arxiv: 2502.14799},
+    year={2025}
+  }
+```
