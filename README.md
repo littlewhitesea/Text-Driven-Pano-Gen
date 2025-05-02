@@ -1,4 +1,4 @@
-## A Survey on Text-Driven 360-Degree Panorama Generation
+## A Concise Survey on Text-Driven 360-Degree Panorama Generation
 
 
 <a href='https://arxiv.org/abs/2502.14799'>
@@ -99,61 +99,65 @@ arxiv 2024. [[PDF](https://arxiv.org/abs/2407.15187)] [[Project](https://zhouhyo
 
 Quantitative Comparison of Representative Text-Driven 360-Degree Panorama Generation. We employ an out-of-domain dataset, [ODI-SR](https://github.com/wangh-allen/LAU-Net), on which none of the models have been explicitly trained. Metrics are based on [evaluation criteria](#evaluation-metrics). Inference time is for generating a 1024×512 panorama. The **best** and <ins>second-best</ins> results are highlighted.
 
-<table style="width: 100%; border-collapse: collapse;">
+<table style="width:100%;">
   <colgroup>
-    <col style="width: 15%;">
-    <col style="width: 10%;">
-    <col style="width: 10%;">
-    <col style="width: 10%;">
-    <col style="width: 10%;">
-    <col style="width: 10%;">
-    <col style="width: 10%;">
-    <col style="width: 10%;">
-    <col style="width: 15%;">
+    <col style="width: 14%" />
+    <col style="width: 7%" />
+    <col style="width: 13%" />
+    <col style="width: 7%" />
+    <col style="width: 7%" />
+    <col style="width: 7%" />
+    <col style="width: 12%" />
+    <col style="width: 7%" />
+    <col style="width: 12%" />
+    <col style="width: 14%" />
   </colgroup>
   <thead>
-    <tr>
-      <th style="text-align: left;">Method</th>
-      <th style="text-align: center;">FID &darr;</th>
-      <th style="text-align: center;">KID (×10⁻²) &darr;</th>
-      <th style="text-align: center;">IS &uarr;</th>
-      <th style="text-align: center;">CS &uarr;</th>
-      <th style="text-align: center;">FAED &darr;</th>
-      <th style="text-align: center;">OmniFID &darr;</th>
-      <th style="text-align: center;">DS &darr;</th>
-      <th style="text-align: center;">Inference (s)</th>
+    <tr class="header">
+      <th>Method</th>
+      <th>FID ↓</th>
+      <th>KID (×10⁻²) ↓</th>
+      <th>IS ↑</th>
+      <th>CS ↑</th>
+      <th>FAED ↓</th>
+      <th>OmniFID ↓</th>
+      <th>DS ↓</th>
+      <th>Inference (s)</th>
+      <th>GPU Memory (GB) ↓</th> <!-- New column header -->
     </tr>
   </thead>
   <tbody>
     <!-- Category Row: Text-Only Generation -->
-    <tr>
-      <td colspan="9" style="text-align: center;"><strong>Text-Only Generation</strong></td>
+    <tr class="odd">
+      <td colspan="10" style="text-align: center;"><strong>Text-Only Generation</strong></td>
     </tr>
     <!-- Data Rows for Text-Only Generation -->
-    <tr>
-      <td style="text-align: left;">Text2Light</td>
+    <tr class="even">
+      <td>Text2Light</td>
       <td style="text-align: center;">72.63</td>
-      <td style="text-align: center;"><ins>1.54</ins></td>
+      <td style="text-align: center;"><u>1.54</u></td>
       <td style="text-align: center;">5.35</td>
       <td style="text-align: center;"><strong>19.20</strong></td>
       <td style="text-align: center;">18.10</td>
       <td style="text-align: center;">99.81</td>
       <td style="text-align: center;">5.38</td>
       <td style="text-align: center;">33</td>
+      <td style="text-align: center;">12.5</td> <!-- Placeholder -->
     </tr>
-    <tr>
-      <td style="text-align: left;">Diffusion360</td>
-      <td style="text-align: center;"><ins>70.32</ins></td>
+    <tr class="odd">
+      <td>Diffusion360</td>
+      <td style="text-align: center;"><u>70.32</u></td>
       <td style="text-align: center;">2.00</td>
       <td style="text-align: center;">5.29</td>
       <td style="text-align: center;">18.74</td>
       <td style="text-align: center;"><strong>12.43</strong></td>
-      <td style="text-align: center;"><ins>92.23</ins></td>
-      <td style="text-align: center;"><ins>0.94</ins></td>
+      <td style="text-align: center;"><u>92.23</u></td>
+      <td style="text-align: center;"><u>0.94</u></td>
       <td style="text-align: center;"><strong>3</strong></td>
+      <td style="text-align: center;"><strong>3.5</strong></td>
     </tr>
-    <tr>
-      <td style="text-align: left;">StitchDiffusion</td>
+    <tr class="even">
+      <td>StitchDiffusion</td>
       <td style="text-align: center;">76.69</td>
       <td style="text-align: center;">2.04</td>
       <td style="text-align: center;"><strong>7.36</strong></td>
@@ -161,26 +165,28 @@ Quantitative Comparison of Representative Text-Driven 360-Degree Panorama Genera
       <td style="text-align: center;">15.58</td>
       <td style="text-align: center;">108.63</td>
       <td style="text-align: center;">1.07</td>
-      <td style="text-align: center;"><ins>28</ins></td>
+      <td style="text-align: center;"><u>28</u></td>
+      <td style="text-align: center;"><u>3.6</u></td>
     </tr>
-    <tr>
-      <td style="text-align: left;">PanFusion</td>
+    <tr class="odd">
+      <td>PanFusion</td>
       <td style="text-align: center;"><strong>61.23</strong></td>
       <td style="text-align: center;"><strong>1.07</strong></td>
-      <td style="text-align: center;"><ins>6.16</ins></td>
-      <td style="text-align: center;"><ins>18.96</ins></td>
-      <td style="text-align: center;"><ins>13.16</ins></td>
+      <td style="text-align: center;"><u>6.16</u></td>
+      <td style="text-align: center;"><u>18.96</u></td>
+      <td style="text-align: center;"><u>13.16</u></td>
       <td style="text-align: center;"><strong>92.22</strong></td>
       <td style="text-align: center;"><strong>0.85</strong></td>
       <td style="text-align: center;">30</td>
+      <td style="text-align: center;">26.3</td>
     </tr>
     <!-- Category Row: Text-Driven NFoV Outpainting -->
-    <tr>
-      <td colspan="9" style="text-align: center;"><strong>Text-Driven NFoV Outpainting</strong></td>
+    <tr class="even">
+      <td colspan="10" style="text-align: center;"><strong>Text-Driven NFoV Outpainting</strong></td>
     </tr>
     <!-- Data Rows for Text-Driven NFoV Outpainting -->
-    <tr>
-      <td style="text-align: left;">PanoDiff</td>
+    <tr class="odd">
+      <td>PanoDiff</td>
       <td style="text-align: center;"><ins>65.94</ins></td>
       <td style="text-align: center;"><ins>2.44</ins></td>
       <td style="text-align: center;"><strong>4.72</strong></td>
@@ -189,9 +195,10 @@ Quantitative Comparison of Representative Text-Driven 360-Degree Panorama Genera
       <td style="text-align: center;"><ins>122.30</ins></td>
       <td style="text-align: center;"><ins>1.10</ins></td>
       <td style="text-align: center;"><ins>48</ins></td>
+      <td style="text-align: center;"><ins>36.0</ins></td>
     </tr>
-    <tr>
-      <td style="text-align: left;">Diffusion360</td>
+    <tr class="even">
+      <td>Diffusion360</td>
       <td style="text-align: center;"><strong>64.19</strong></td>
       <td style="text-align: center;"><strong>2.05</strong></td>
       <td style="text-align: center;"><ins>4.53</ins></td>
@@ -200,6 +207,7 @@ Quantitative Comparison of Representative Text-Driven 360-Degree Panorama Genera
       <td style="text-align: center;"><strong>101.39</strong></td>
       <td style="text-align: center;"><strong>0.72</strong></td>
       <td style="text-align: center;"><strong>4</strong></td>
+      <td style="text-align: center;"><strong>3.7</strong></td>
     </tr>
   </tbody>
 </table>

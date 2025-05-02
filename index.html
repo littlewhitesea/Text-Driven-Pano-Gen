@@ -5,7 +5,7 @@
 <link rel="stylesheet" href="jemdoc.css" type="text/css" />
 </head>
 
-<h1 id="text-driven-360-degree-panorama-generation">A Survey on Text-Driven
+<h1 id="text-driven-360-degree-panorama-generation">A Concise Survey on Text-Driven
 360-Degree Panorama Generation</h1>
 <p><a href="https://awesome.re"><img src="https://awesome.re/badge.svg"
 alt="Awesome" /></a> <img
@@ -163,15 +163,16 @@ for generating a 1024×512 panorama. The <strong>best</strong> and
 <u>second-best</u> results are highlighted.</p>
 <table style="width:100%;">
   <colgroup>
-    <col style="width: 16%" />
-    <col style="width: 8%" />
-    <col style="width: 15%" />
-    <col style="width: 8%" />
-    <col style="width: 8%" />
-    <col style="width: 8%" />
     <col style="width: 14%" />
-    <col style="width: 8%" />
-    <col style="width: 15%" />
+    <col style="width: 7%" />
+    <col style="width: 13%" />
+    <col style="width: 7%" />
+    <col style="width: 7%" />
+    <col style="width: 7%" />
+    <col style="width: 12%" />
+    <col style="width: 7%" />
+    <col style="width: 12%" />
+    <col style="width: 14%" />
   </colgroup>
   <thead>
     <tr class="header">
@@ -184,12 +185,13 @@ for generating a 1024×512 panorama. The <strong>best</strong> and
       <th>OmniFID ↓</th>
       <th>DS ↓</th>
       <th>Inference (s)</th>
+      <th>GPU Memory (GB) ↓</th> <!-- New column header -->
     </tr>
   </thead>
   <tbody>
     <!-- Category Row: Text-Only Generation -->
     <tr class="odd">
-      <td colspan="9" style="text-align: center;"><strong>Text-Only Generation</strong></td>
+      <td colspan="10" style="text-align: center;"><strong>Text-Only Generation</strong></td>
     </tr>
     <!-- Data Rows for Text-Only Generation -->
     <tr class="even">
@@ -202,6 +204,7 @@ for generating a 1024×512 panorama. The <strong>best</strong> and
       <td style="text-align: center;">99.81</td>
       <td style="text-align: center;">5.38</td>
       <td style="text-align: center;">33</td>
+      <td style="text-align: center;">12.5</td> <!-- Placeholder -->
     </tr>
     <tr class="odd">
       <td>Diffusion360</td>
@@ -213,6 +216,7 @@ for generating a 1024×512 panorama. The <strong>best</strong> and
       <td style="text-align: center;"><u>92.23</u></td>
       <td style="text-align: center;"><u>0.94</u></td>
       <td style="text-align: center;"><strong>3</strong></td>
+      <td style="text-align: center;"><strong>3.5</strong></td>
     </tr>
     <tr class="even">
       <td>StitchDiffusion</td>
@@ -224,6 +228,7 @@ for generating a 1024×512 panorama. The <strong>best</strong> and
       <td style="text-align: center;">108.63</td>
       <td style="text-align: center;">1.07</td>
       <td style="text-align: center;"><u>28</u></td>
+      <td style="text-align: center;"><u>3.6</u></td>
     </tr>
     <tr class="odd">
       <td>PanFusion</td>
@@ -235,10 +240,11 @@ for generating a 1024×512 panorama. The <strong>best</strong> and
       <td style="text-align: center;"><strong>92.22</strong></td>
       <td style="text-align: center;"><strong>0.85</strong></td>
       <td style="text-align: center;">30</td>
+      <td style="text-align: center;">26.3</td>
     </tr>
     <!-- Category Row: Text-Driven NFoV Outpainting -->
     <tr class="even">
-      <td colspan="9" style="text-align: center;"><strong>Text-Driven NFoV Outpainting</strong></td>
+      <td colspan="10" style="text-align: center;"><strong>Text-Driven NFoV Outpainting</strong></td>
     </tr>
     <!-- Data Rows for Text-Driven NFoV Outpainting -->
     <tr class="odd">
@@ -251,6 +257,7 @@ for generating a 1024×512 panorama. The <strong>best</strong> and
       <td style="text-align: center;"><ins>122.30</ins></td>
       <td style="text-align: center;"><ins>1.10</ins></td>
       <td style="text-align: center;"><ins>48</ins></td>
+      <td style="text-align: center;"><ins>36.0</ins></td>
     </tr>
     <tr class="even">
       <td>Diffusion360</td>
@@ -262,6 +269,7 @@ for generating a 1024×512 panorama. The <strong>best</strong> and
       <td style="text-align: center;"><strong>101.39</strong></td>
       <td style="text-align: center;"><strong>0.72</strong></td>
       <td style="text-align: center;"><strong>4</strong></td>
+      <td style="text-align: center;"><strong>3.7</strong></td>
     </tr>
   </tbody>
 </table>
