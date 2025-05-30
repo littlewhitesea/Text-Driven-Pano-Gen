@@ -1,4 +1,4 @@
-## A Concise Survey on Text-Driven 360-Degree Panorama Generation
+## A Survey on Text-Driven 360-Degree Panorama Generation
 
 
 <a href='https://arxiv.org/abs/2502.14799'>
@@ -39,6 +39,22 @@ WACV 2024. [[PDF](https://arxiv.org/abs/2310.18840)] [[Project](https://littlewh
 *Zhaoxi Chen, Guangcong Wang, Ziwei Liu.*<br>
 TOG 2022 (SIGGRAPH Asia). [[PDF](https://arxiv.org/abs/2209.09898)] [[Project](https://frozenburning.github.io/projects/text2light/)] [[Code]](https://github.com/FrozenBurning/Text2Light)<br>
 
+* **What Makes for Text to 360-degree Panorama Generation with Stable Diffusion?.**<br>
+*Jinhong Ni, Chang-Bin Zhang, Qiang Zhang, Jing Zhang.*<br>
+arxiv 2025. [[PDF](https://arxiv.org/abs/2505.22129)] [[Code]](https://github.com/jinhong-ni/UniPano)<br>
+
+* **Conditional Panoramic Image Generation via Masked Autoregressive Modeling.**<br>
+*Chaoyang Wang, Xiangtai Li, Lu Qi, Xiaofan Lin, Jinbin Bai, Qianyu Zhou, Yunhai Tong.*<br>
+arxiv 2025. [[PDF](https://arxiv.org/abs/2505.16862)] [[Project]](https://wang-chaoyang.github.io/project/par/)<br>
+
+* **SphereDiff: Tuning-free Omnidirectional Panoramic Image and Video Generation via Spherical Latent Representation.**<br>
+*Minho Park, Taewoong Kang, Jooyeol Yun, Sungwon Hwang, Jaegul Choo.*<br>
+arxiv 2025. [[PDF](https://arxiv.org/abs/2504.14396)] [[Code]](https://github.com/pmh9960/SphereDiff)<br>
+
+* **Omni<sup>2</sup>: Unifying Omnidirectional Image Generation and Editing in an Omni Model.**<br>
+*Liu Yang, Huiyu Duan, Yucheng Zhu, Xiaohong Liu, Lu Liu, Zitong Xu, Guangji Ma, Xiongkuo Min, Guangtao Zhai, Patrick Le Callet.*<br>
+arxiv 2025. [[PDF](https://arxiv.org/abs/2504.11379)]<br>
+
 * **Diffusion360: Seamless 360 Degree Panoramic Image Generation based on Diffusion Models.**<br>
 *Mengyang Feng, Jinlin Liu, Miaomiao Cui, Xuansong Xie.*<br>
 arxiv 2023. [[PDF](https://arxiv.org/abs/2311.13141)] [[Code]](https://github.com/ArcherFMY/SD-T2I-360PanoImage)<br>
@@ -46,6 +62,10 @@ arxiv 2023. [[PDF](https://arxiv.org/abs/2311.13141)] [[Code]](https://github.co
 ### Text-Driven NFoV Outpainting
 
 Text-driven narrow field-of-view (NFoV) outpainting enhances user control by conditioning the generation process on both textual prompts and initial narrow NFoV images.
+
+* **Panorama Generation From NFoV Image Done Right.**<br>
+*Dian Zheng, Cheng Zhang, Xiao-Ming Wu, Cao Li, Chengfei Lv, Jian-Fang Hu, Wei-Shi Zheng.*<br>
+CVPR 2025. [[PDF](https://arxiv.org/abs/2503.18420)] [[Project](https://isee-laboratory.github.io/PanoDecouple/)] [[Code]](https://github.com/iSEE-Laboratory/PanoDecouple)<br>
 
 * **CubeDiff: Repurposing Diffusion-Based Image Models for Panorama Generation.**<br>
 *Nikolai Kalischek, Michael Oechsle, Fabian Manhardt, Philipp Henzler, Konrad Schindler, Federico Tombari.*<br>
@@ -63,17 +83,29 @@ ACM MM 2023. [[PDF](https://arxiv.org/abs/2308.14686)] [[Code]](https://github.c
 *Mohammad Reza Karimi Dastjerdi, Yannick Hold-Geoffroy, Jonathan Eisenmann, Siavash Khodadadeh, Jean-François Lalonde.*<br>
 3DV 2022. [[PDF](https://arxiv.org/abs/2204.07286)] [[Project](https://lvsn.github.io/ImmerseGAN/)]<br>
 
+* **Conditional Panoramic Image Generation via Masked Autoregressive Modeling.**<br>
+*Chaoyang Wang, Xiangtai Li, Lu Qi, Xiaofan Lin, Jinbin Bai, Qianyu Zhou, Yunhai Tong.*<br>
+arxiv 2025. [[PDF](https://arxiv.org/abs/2505.16862)] [[Project]](https://wang-chaoyang.github.io/project/par/)<br>
+
+* **Omni<sup>2</sup>: Unifying Omnidirectional Image Generation and Editing in an Omni Model.**<br>
+*Liu Yang, Huiyu Duan, Yucheng Zhu, Xiaohong Liu, Lu Liu, Zitong Xu, Guangji Ma, Xiongkuo Min, Guangtao Zhai, Patrick Le Callet.*<br>
+arxiv 2025. [[PDF](https://arxiv.org/abs/2504.11379)]<br>
+
 * **OPa-Ma: Text Guided Mamba for 360-degree Image Out-painting.**<br>
 *Penglei Gao, Kai Yao, Tiandi Ye, Steven Wang, Yuan Yao, Xiaofeng Wang.*<br>
 arxiv 2024. [[PDF](https://arxiv.org/abs/2407.10923)] [[Code]](https://github.com/PengleiGao/OPaMa)<br>
 
 * **Diffusion360: Seamless 360 Degree Panoramic Image Generation based on Diffusion Models.**<br>
 *Mengyang Feng, Jinlin Liu, Miaomiao Cui, Xuansong Xie.*<br>
-arxiv 2024. [[PDF](https://arxiv.org/abs/2311.13141)] [[Code]](https://github.com/ArcherFMY/SD-T2I-360PanoImage)<br>
+arxiv 2023. [[PDF](https://arxiv.org/abs/2311.13141)] [[Code]](https://github.com/ArcherFMY/SD-T2I-360PanoImage)<br>
 
 ### Emerging 3D Applications
 
 Recent text-driven 360-degree 3D scene generation methods utilize 360-degree panorama generation to bridge the gap between text prompts and 360-degree 3D scene reconstruction.
+
+* **LayerPano3D: Layered 3D Panorama for Hyper-Immersive Scene Generation.**<br>
+*Shuai Yang, Jing Tan, Mengchen Zhang, Tong Wu, Yixuan Li, Gordon Wetzstein, Ziwei Liu, Dahua Lin.*<br>
+SIGGRAPH 2025. [[PDF](https://arxiv.org/abs/2408.13252)] [[Project](https://ys-imtech.github.io/projects/LayerPano3D/)] [[Code]](https://github.com/YS-IMTech/LayerPano3D)<br>
 
 * **DreamScene360: Unconstrained Text-to-3D Scene Generation with Panoramic Gaussian Splatting.**<br>
 *Shijie Zhou, Zhiwen Fan, Dejia Xu, Haoran Chang, Pradyumna Chari, Tejas Bharadwaj, Suya You, Zhangyang Wang, Achuta Kadambi.*<br>
@@ -86,10 +118,6 @@ IJCAI 2024. [[PDF](https://arxiv.org/abs/2405.05768)] [[Code]](https://github.co
 * **SceneDreamer360: Text-Driven 3D-Consistent Scene Generation with Panoramic Gaussian Splatting.**<br>
 *Wenrui Li, Yapeng Mi, Fucheng Cai, Zhe Yang, Wangmeng Zuo, Xingtao Wang, Xiaopeng Fan.*<br>
 arxiv 2024. [[PDF](https://arxiv.org/abs/2408.13711)] [[Project](https://scenedreamer360.github.io/)] [[Code]](https://github.com/liwrui/SceneDreamer360)<br>
-
-* **LayerPano3D: Layered 3D Panorama for Hyper-Immersive Scene Generation.**<br>
-*Shuai Yang, Jing Tan, Mengchen Zhang, Tong Wu, Yixuan Li, Gordon Wetzstein, Ziwei Liu, Dahua Lin.*<br>
-arxiv 2024. [[PDF](https://arxiv.org/abs/2408.13252)] [[Project](https://ys-imtech.github.io/projects/LayerPano3D/)] [[Code]](https://github.com/YS-IMTech/LayerPano3D)<br>
 
 * **HoloDreamer: Holistic 3D Panoramic World Generation from Text Descriptions.**<br>
 *Haiyang Zhou, Xinhua Cheng, Wangbo Yu, Yonghong Tian, Li Yuan.*<br>
@@ -248,6 +276,8 @@ Summary of popular datasets used in text-driven 360-degree panorama generation. 
 * Omnidirectional FID (OmniFID) [paper](https://link.springer.com/chapter/10.1007/978-3-031-72989-8_16)
 
 * Discontinuity Score (DS) [paper](https://link.springer.com/chapter/10.1007/978-3-031-72989-8_16)
+
+* Distortion-perception FID (Distort-FID) [code](https://github.com/iSEE-Laboratory/PanoDecouple)
 
 
 ### Citation
