@@ -67,6 +67,10 @@ arxiv 2023. [[PDF](https://arxiv.org/abs/2311.13141)] [[Code]](https://github.co
 
 Text-driven narrow field-of-view (NFoV) outpainting enhances user control by conditioning the generation process on both textual prompts and initial narrow NFoV images.
 
+* **DreamCube: 3D Panorama Generation via Multi-plane Synchronization.**<br>
+*Yukun Huang, Yanning Zhou, Jianan Wang, Kaiyi Huang, Xihui Liu.*<br>
+ICCV 2025. [[PDF](https://arxiv.org/abs/2506.17206)] [[Project]](https://yukun-huang.github.io/DreamCube/) [[Code]](https://github.com/yukun-huang/DreamCube)<br>
+
 * **Spherical-Nested Diffusion Model for Panoramic Image Outpainting.**<br>
 *Xiancheng Sun, Senmao Ma, Shengxi Li, Mai Xu, Jingyuan Xia, Lai Jiang, Xin Deng, Jiali Wang.*<br>
 ICML 2025. [[PDF](https://openreview.net/pdf?id=JVDFkVf4QY)] [[Code]](https://github.com/chronos123/SpND-ICML2025)<br>
@@ -90,10 +94,6 @@ ACM MM 2023. [[PDF](https://arxiv.org/abs/2308.14686)] [[Code]](https://github.c
 * **Guided Co-Modulated GAN for 360° Field of View Extrapolation.**<br>
 *Mohammad Reza Karimi Dastjerdi, Yannick Hold-Geoffroy, Jonathan Eisenmann, Siavash Khodadadeh, Jean-François Lalonde.*<br>
 3DV 2022. [[PDF](https://arxiv.org/abs/2204.07286)] [[Project](https://lvsn.github.io/ImmerseGAN/)]<br>
-
-* **DreamCube: 3D Panorama Generation via Multi-plane Synchronization.**<br>
-*Yukun Huang, Yanning Zhou, Jianan Wang, Kaiyi Huang, Xihui Liu.*<br>
-arxiv 2025. [[PDF](https://arxiv.org/pdf/2506.17206)] [[Project]](https://yukun-huang.github.io/DreamCube/) [[Code]](https://github.com/yukun-huang/DreamCube)<br>
 
 * **Conditional Panoramic Image Generation via Masked Autoregressive Modeling.**<br>
 *Chaoyang Wang, Xiangtai Li, Lu Qi, Xiaofan Lin, Jinbin Bai, Qianyu Zhou, Yunhai Tong.*<br>
