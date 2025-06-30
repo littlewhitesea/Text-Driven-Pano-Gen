@@ -19,6 +19,10 @@ We aim to constantly update the latest relevant papers and help the community tr
 
 Text-only generation focuses on synthesizing 360-degree panoramas from textual descriptions only.
 
+* **Spherical Manifold Guided Diffusion Model for Panoramic Image Generation.**<br>
+*Xiancheng Sun, Mai Xu, Shengxi Li, Senmao Ma, Xin Deng, Lai Jiang, Gang Shen.*<br>
+CVPR 2025. [[PDF](https://openaccess.thecvf.com/content/CVPR2025/papers/Sun_Spherical_Manifold_Guided_Diffusion_Model_for_Panoramic_Image_Generation_CVPR_2025_paper.pdf)] [[Code]](https://github.com/chronos123/SMGD-CVPR2025)<br>
+
 * **DiffPano: Scalable and Consistent Text to Panorama Generation with Spherical Epipolar-Aware Diffusion.**<br>
 *Weicai Ye, Chenhao Ji, Zheng Chen, Junyao Gao, Xiaoshui Huang, Song-Hai Zhang, Wanli Ouyang, Tong He, Cairong Zhao, Guofeng Zhang.*<br>
 NeurIPS 2024. [[PDF](https://arxiv.org/abs/2410.24203)] [[Project](https://zju3dv.github.io/DiffPano/)] [[Code]](https://github.com/zju3dv/DiffPano)<br>
@@ -63,6 +67,10 @@ arxiv 2023. [[PDF](https://arxiv.org/abs/2311.13141)] [[Code]](https://github.co
 
 Text-driven narrow field-of-view (NFoV) outpainting enhances user control by conditioning the generation process on both textual prompts and initial narrow NFoV images.
 
+* **Spherical-Nested Diffusion Model for Panoramic Image Outpainting.**<br>
+*Xiancheng Sun, Senmao Ma, Shengxi Li, Mai Xu, Jingyuan Xia, Lai Jiang, Xin Deng, Jiali Wang.*<br>
+ICML 2025. [[PDF](https://openreview.net/pdf?id=JVDFkVf4QY)] [[Code]](https://github.com/chronos123/SpND-ICML2025)<br>
+
 * **Panorama Generation From NFoV Image Done Right.**<br>
 *Dian Zheng, Cheng Zhang, Xiao-Ming Wu, Cao Li, Chengfei Lv, Jian-Fang Hu, Wei-Shi Zheng.*<br>
 CVPR 2025. [[PDF](https://arxiv.org/abs/2503.18420)] [[Project](https://isee-laboratory.github.io/PanoDecouple/)] [[Code]](https://github.com/iSEE-Laboratory/PanoDecouple)<br>
@@ -82,6 +90,10 @@ ACM MM 2023. [[PDF](https://arxiv.org/abs/2308.14686)] [[Code]](https://github.c
 * **Guided Co-Modulated GAN for 360° Field of View Extrapolation.**<br>
 *Mohammad Reza Karimi Dastjerdi, Yannick Hold-Geoffroy, Jonathan Eisenmann, Siavash Khodadadeh, Jean-François Lalonde.*<br>
 3DV 2022. [[PDF](https://arxiv.org/abs/2204.07286)] [[Project](https://lvsn.github.io/ImmerseGAN/)]<br>
+
+* **DreamCube: 3D Panorama Generation via Multi-plane Synchronization.**<br>
+*Yukun Huang, Yanning Zhou, Jianan Wang, Kaiyi Huang, Xihui Liu.*<br>
+arxiv 2025. [[PDF](https://arxiv.org/pdf/2506.17206)] [[Project]](https://yukun-huang.github.io/DreamCube/) [[Code]](https://github.com/yukun-huang/DreamCube)<br>
 
 * **Conditional Panoramic Image Generation via Masked Autoregressive Modeling.**<br>
 *Chaoyang Wang, Xiangtai Li, Lu Qi, Xiaofan Lin, Jinbin Bai, Qianyu Zhou, Yunhai Tong.*<br>
@@ -122,6 +134,36 @@ arxiv 2024. [[PDF](https://arxiv.org/abs/2408.13711)] [[Project](https://scenedr
 * **HoloDreamer: Holistic 3D Panoramic World Generation from Text Descriptions.**<br>
 *Haiyang Zhou, Xinhua Cheng, Wangbo Yu, Yonghong Tian, Li Yuan.*<br>
 arxiv 2024. [[PDF](https://arxiv.org/abs/2407.15187)] [[Project](https://zhouhyocean.github.io/holodreamer/)] [[Code]](https://github.com/zhouhyOcean/HoloDreamer)<br>
+
+### Text-Driven 360-Degree Panoramic Video Generation
+
+Recent progress in text-driven 360-degree panoramic image synthesis has spurred research into the more challenging task: text-driven 360-degree panoramic video generation.
+
+* **DynamicScaler: Seamless and Scalable Video Generation for Panoramic Scenes.**<br>
+*Jinxiu Liu, Shaoheng Lin, Yinxiao Li, Ming-Hsuan Yang.*<br>
+CVPR 2025. [[PDF](https://arxiv.org/abs/2412.11100v1)] [[Project](https://dynamic-scaler.pages.dev/)] [[Code]](https://github.com/sh-Lin/DynamicScaler)<br>
+
+* **PanoDiT: Panoramic Videos Generation with Diffusion Transformer.**<br>
+*Muyang Zhang, Yuzhi Chen, Rongtao Xu, Changwei Wang, Jinming Yang, Weiliang Meng, Jianwei Guo, Huihuang Zhao, and Xiaopeng Zhang.*<br>
+AAAI 2025. [[PDF](https://ojs.aaai.org/index.php/AAAI/article/view/33089)]<br>
+
+* **360DVD: Controllable Panorama Video Generation with 360-Degree Video Diffusion Model.**<br>
+*Qian Wang, Weiqi Li, Chong Mou, Xinhua Cheng, Jian Zhang.*<br>
+CVPR 2024. [[PDF](https://arxiv.org/abs/2401.06578)] [[Project](https://akaneqwq.github.io/360DVD/)] [[Code]](https://github.com/Akaneqwq/360DVD)<br>
+
+* **PanoWan: Lifting Diffusion Video Generation Models to 360° with Latitude/Longitude-aware Mechanisms.**<br>
+*Yifei Xia, Shuchen Weng, Siqi Yang, Jingqi Liu, Chengxuan Zhu, Minggui Teng, Zijian Jia, Han Jiang, Boxin Shi.*<br>
+arxiv 2025. [[PDF](https://arxiv.org/abs/2505.22016)] [[Project](https://panowan.variantconst.com/)] [[Code]](https://github.com/VariantConst/PanoWan)<br>
+
+* **VideoPanda: Video Panoramic Diffusion with Multi-view Attention.**<br>
+*Kevin Xie, Amirmojtaba Sabour, Jiahui Huang, Despoina Paschalidou, Greg Klar, Umar Iqbal, Sanja Fidler, Xiaohui Zeng.*<br>
+arxiv 2025. [[PDF](https://arxiv.org/abs/2504.11389)] [[Project](https://research.nvidia.com/labs/toronto-ai/VideoPanda/)]<br>
+
+* **SphereDiff: Tuning-free Omnidirectional Panoramic Image and Video Generation via Spherical Latent Representation.**<br>
+*Minho Park, Taewoong Kang, Jooyeol Yun, Sungwon Hwang, Jaegul Choo.*<br>
+arxiv 2025. [[PDF](https://arxiv.org/abs/2504.14396)] [[Code]](https://github.com/pmh9960/SphereDiff)<br>
+
+
 
 ### Benchmark
 
