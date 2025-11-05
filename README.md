@@ -19,6 +19,14 @@ We aim to constantly update the latest relevant papers and help the community tr
 
 Text-only generation focuses on synthesizing 360-degree panoramas from textual descriptions only.
 
+* **Omni<sup>2</sup>: Unifying Omnidirectional Image Generation and Editing in an Omni Model.**<br>
+*Liu Yang, Huiyu Duan, Yucheng Zhu, Xiaohong Liu, Lu Liu, Zitong Xu, Guangji Ma, Xiongkuo Min, Guangtao Zhai, Patrick Le Callet.*<br>
+ACM MM 2025. [[PDF](https://arxiv.org/abs/2504.11379)] [[Code]](https://github.com/IntMeGroup/Omni2)<br>
+
+* **What Makes for Text to 360-degree Panorama Generation with Stable Diffusion?.**<br>
+*Jinhong Ni, Chang-Bin Zhang, Qiang Zhang, Jing Zhang.*<br>
+ICCV 2025. [[PDF](https://arxiv.org/abs/2505.22129)] [[Code]](https://github.com/jinhong-ni/UniPano)<br>
+
 * **Spherical Manifold Guided Diffusion Model for Panoramic Image Generation.**<br>
 *Xiancheng Sun, Mai Xu, Shengxi Li, Senmao Ma, Xin Deng, Lai Jiang, Gang Shen.*<br>
 CVPR 2025. [[PDF](https://openaccess.thecvf.com/content/CVPR2025/papers/Sun_Spherical_Manifold_Guided_Diffusion_Model_for_Panoramic_Image_Generation_CVPR_2025_paper.pdf)] [[Code]](https://github.com/chronos123/SMGD-CVPR2025)<br>
@@ -43,21 +51,13 @@ WACV 2024. [[PDF](https://arxiv.org/abs/2310.18840)] [[Project](https://littlewh
 *Zhaoxi Chen, Guangcong Wang, Ziwei Liu.*<br>
 TOG 2022 (SIGGRAPH Asia). [[PDF](https://arxiv.org/abs/2209.09898)] [[Project](https://frozenburning.github.io/projects/text2light/)] [[Code]](https://github.com/FrozenBurning/Text2Light)<br>
 
-* **What Makes for Text to 360-degree Panorama Generation with Stable Diffusion?.**<br>
-*Jinhong Ni, Chang-Bin Zhang, Qiang Zhang, Jing Zhang.*<br>
-arxiv 2025. [[PDF](https://arxiv.org/abs/2505.22129)] [[Code]](https://github.com/jinhong-ni/UniPano)<br>
-
 * **Conditional Panoramic Image Generation via Masked Autoregressive Modeling.**<br>
 *Chaoyang Wang, Xiangtai Li, Lu Qi, Xiaofan Lin, Jinbin Bai, Qianyu Zhou, Yunhai Tong.*<br>
-arxiv 2025. [[PDF](https://arxiv.org/abs/2505.16862)] [[Project]](https://wang-chaoyang.github.io/project/par/)<br>
+arxiv 2025. [[PDF](https://arxiv.org/abs/2505.16862)] [[Project](https://wang-chaoyang.github.io/project/par/)] [[Code]](https://github.com/wang-chaoyang/par)<br>
 
 * **SphereDiff: Tuning-free Omnidirectional Panoramic Image and Video Generation via Spherical Latent Representation.**<br>
 *Minho Park, Taewoong Kang, Jooyeol Yun, Sungwon Hwang, Jaegul Choo.*<br>
-arxiv 2025. [[PDF](https://arxiv.org/abs/2504.14396)] [[Code]](https://github.com/pmh9960/SphereDiff)<br>
-
-* **Omni<sup>2</sup>: Unifying Omnidirectional Image Generation and Editing in an Omni Model.**<br>
-*Liu Yang, Huiyu Duan, Yucheng Zhu, Xiaohong Liu, Lu Liu, Zitong Xu, Guangji Ma, Xiongkuo Min, Guangtao Zhai, Patrick Le Callet.*<br>
-arxiv 2025. [[PDF](https://arxiv.org/abs/2504.11379)]<br>
+arxiv 2025. [[PDF](https://arxiv.org/abs/2504.14396)] [[Project](https://pmh9960.github.io/research/SphereDiff/)] [[Code]](https://github.com/pmh9960/SphereDiff)<br>
 
 * **Diffusion360: Seamless 360 Degree Panoramic Image Generation based on Diffusion Models.**<br>
 *Mengyang Feng, Jinlin Liu, Miaomiao Cui, Xuansong Xie.*<br>
@@ -66,6 +66,10 @@ arxiv 2023. [[PDF](https://arxiv.org/abs/2311.13141)] [[Code]](https://github.co
 ### Text-Driven NFoV Outpainting
 
 Text-driven narrow field-of-view (NFoV) outpainting enhances user control by conditioning the generation process on both textual prompts and initial narrow NFoV images.
+
+* **Omni<sup>2</sup>: Unifying Omnidirectional Image Generation and Editing in an Omni Model.**<br>
+*Liu Yang, Huiyu Duan, Yucheng Zhu, Xiaohong Liu, Lu Liu, Zitong Xu, Guangji Ma, Xiongkuo Min, Guangtao Zhai, Patrick Le Callet.*<br>
+ACM MM 2025. [[PDF](https://arxiv.org/abs/2504.11379)] [[Code]](https://github.com/IntMeGroup/Omni2)<br>
 
 * **DreamCube: 3D Panorama Generation via Multi-plane Synchronization.**<br>
 *Yukun Huang, Yanning Zhou, Jianan Wang, Kaiyi Huang, Xihui Liu.*<br>
@@ -97,11 +101,7 @@ ACM MM 2023. [[PDF](https://arxiv.org/abs/2308.14686)] [[Code]](https://github.c
 
 * **Conditional Panoramic Image Generation via Masked Autoregressive Modeling.**<br>
 *Chaoyang Wang, Xiangtai Li, Lu Qi, Xiaofan Lin, Jinbin Bai, Qianyu Zhou, Yunhai Tong.*<br>
-arxiv 2025. [[PDF](https://arxiv.org/abs/2505.16862)] [[Project]](https://wang-chaoyang.github.io/project/par/)<br>
-
-* **Omni<sup>2</sup>: Unifying Omnidirectional Image Generation and Editing in an Omni Model.**<br>
-*Liu Yang, Huiyu Duan, Yucheng Zhu, Xiaohong Liu, Lu Liu, Zitong Xu, Guangji Ma, Xiongkuo Min, Guangtao Zhai, Patrick Le Callet.*<br>
-arxiv 2025. [[PDF](https://arxiv.org/abs/2504.11379)]<br>
+arxiv 2025. [[PDF](https://arxiv.org/abs/2505.16862)] [[Project](https://wang-chaoyang.github.io/project/par/)] [[Code]](https://github.com/wang-chaoyang/par)<br>
 
 * **OPa-Ma: Text Guided Mamba for 360-degree Image Out-painting.**<br>
 *Penglei Gao, Kai Yao, Tiandi Ye, Steven Wang, Yuan Yao, Xiaofeng Wang.*<br>
@@ -161,7 +161,7 @@ arxiv 2025. [[PDF](https://arxiv.org/abs/2504.11389)] [[Project](https://researc
 
 * **SphereDiff: Tuning-free Omnidirectional Panoramic Image and Video Generation via Spherical Latent Representation.**<br>
 *Minho Park, Taewoong Kang, Jooyeol Yun, Sungwon Hwang, Jaegul Choo.*<br>
-arxiv 2025. [[PDF](https://arxiv.org/abs/2504.14396)] [[Code]](https://github.com/pmh9960/SphereDiff)<br>
+arxiv 2025. [[PDF](https://arxiv.org/abs/2504.14396)] [[Project](https://pmh9960.github.io/research/SphereDiff/)] [[Code]](https://github.com/pmh9960/SphereDiff)<br>
 
 
 
@@ -205,9 +205,9 @@ Quantitative Comparison of Representative Text-Driven 360-Degree Panorama Genera
     <tr class="even">
       <td>Text2Light</td>
       <td style="text-align: center;">72.63</td>
-      <td style="text-align: center;"><u>1.54</u></td>
+      <td style="text-align: center;">1.54</td>
       <td style="text-align: center;">5.35</td>
-      <td style="text-align: center;"><strong>19.20</strong></td>
+      <td style="text-align: center;"><u>19.20</u></td>
       <td style="text-align: center;">18.10</td>
       <td style="text-align: center;">99.81</td>
       <td style="text-align: center;">5.38</td>
@@ -216,14 +216,14 @@ Quantitative Comparison of Representative Text-Driven 360-Degree Panorama Genera
     </tr>
     <tr class="odd">
       <td>Diffusion360</td>
-      <td style="text-align: center;"><u>70.32</u></td>
+      <td style="text-align: center;">70.32</td>
       <td style="text-align: center;">2.00</td>
       <td style="text-align: center;">5.29</td>
       <td style="text-align: center;">18.74</td>
       <td style="text-align: center;"><strong>12.43</strong></td>
       <td style="text-align: center;"><u>92.23</u></td>
-      <td style="text-align: center;"><u>0.94</u></td>
-      <td style="text-align: center;"><strong>3</strong></td>
+      <td style="text-align: center;">0.94</td>
+      <td style="text-align: center;"><u>3</u></td>
       <td style="text-align: center;"><strong>3.5</strong></td>
     </tr>
     <tr class="even">
@@ -231,24 +231,48 @@ Quantitative Comparison of Representative Text-Driven 360-Degree Panorama Genera
       <td style="text-align: center;">76.69</td>
       <td style="text-align: center;">2.04</td>
       <td style="text-align: center;"><strong>7.36</strong></td>
-      <td style="text-align: center;"><strong>19.20</strong></td>
+      <td style="text-align: center;"><u>19.20</u></td>
       <td style="text-align: center;">15.58</td>
       <td style="text-align: center;">108.63</td>
       <td style="text-align: center;">1.07</td>
-      <td style="text-align: center;"><u>28</u></td>
+      <td style="text-align: center;">28</td>
       <td style="text-align: center;"><u>3.6</u></td>
     </tr>
     <tr class="odd">
       <td>PanFusion</td>
       <td style="text-align: center;"><strong>61.23</strong></td>
       <td style="text-align: center;"><strong>1.07</strong></td>
-      <td style="text-align: center;"><u>6.16</u></td>
-      <td style="text-align: center;"><u>18.96</u></td>
+      <td style="text-align: center;">6.16</td>
+      <td style="text-align: center;">18.96</td>
       <td style="text-align: center;"><u>13.16</u></td>
       <td style="text-align: center;"><strong>92.22</strong></td>
-      <td style="text-align: center;"><strong>0.85</strong></td>
+      <td style="text-align: center;">0.85</td>
       <td style="text-align: center;">30</td>
       <td style="text-align: center;">26.3</td>
+    </tr>
+    <tr class="even">
+      <td>PAR</td>
+      <td style="text-align: center;"><u>64.96</u></td>
+      <td style="text-align: center;"><u>1.49</u></td>
+      <td style="text-align: center;"><u>6.68</u></td>
+      <td style="text-align: center;">18.91</td>
+      <td style="text-align: center;">13.99</td>
+      <td style="text-align: center;">104.02</td>
+      <td style="text-align: center;"><u>0.76</u></td>
+      <td style="text-align: center;">17</td>
+      <td style="text-align: center;">18.6</td>
+    </tr>
+    <tr class="odd">
+      <td>SMGD</td>
+      <td style="text-align: center;">74.91</td>
+      <td style="text-align: center;">2.00</td>
+      <td style="text-align: center;">4.23</td>
+      <td style="text-align: center;"><strong>19.22</strong></td>
+      <td style="text-align: center;">16.78</td>
+      <td style="text-align: center;">106.68</td>
+      <td style="text-align: center;"><strong>0.75</strong></td>
+      <td style="text-align: center;"><strong>2</strong></td>
+      <td style="text-align: center;">8.0</td>
     </tr>
     <!-- Category Row: Text-Driven NFoV Outpainting -->
     <tr class="even">
@@ -259,25 +283,49 @@ Quantitative Comparison of Representative Text-Driven 360-Degree Panorama Genera
       <td>PanoDiff</td>
       <td style="text-align: center;"><ins>65.94</ins></td>
       <td style="text-align: center;"><ins>2.44</ins></td>
-      <td style="text-align: center;"><strong>4.72</strong></td>
-      <td style="text-align: center;"><strong>19.02</strong></td>
-      <td style="text-align: center;"><ins>10.24</ins></td>
-      <td style="text-align: center;"><ins>122.30</ins></td>
+      <td style="text-align: center;"><ins>4.72</ins></td>
+      <td style="text-align: center;">19.02</td>
+      <td style="text-align: center;">10.24</td>
+      <td style="text-align: center;">122.30</td>
       <td style="text-align: center;"><ins>1.10</ins></td>
-      <td style="text-align: center;"><ins>48</ins></td>
-      <td style="text-align: center;"><ins>36.0</ins></td>
+      <td style="text-align: center;">48</td>
+      <td style="text-align: center;">36.0</td>
     </tr>
     <tr class="even">
       <td>Diffusion360</td>
       <td style="text-align: center;"><strong>64.19</strong></td>
       <td style="text-align: center;"><strong>2.05</strong></td>
-      <td style="text-align: center;"><ins>4.53</ins></td>
-      <td style="text-align: center;"><ins>17.92</ins></td>
+      <td style="text-align: center;">4.53</td>
+      <td style="text-align: center;">17.92</td>
       <td style="text-align: center;"><strong>5.50</strong></td>
       <td style="text-align: center;"><strong>101.39</strong></td>
       <td style="text-align: center;"><strong>0.72</strong></td>
       <td style="text-align: center;"><strong>4</strong></td>
       <td style="text-align: center;"><strong>3.7</strong></td>
+    </tr>
+    <tr class="odd">
+      <td>SpND</td>
+      <td style="text-align: center;">69.54</td>
+      <td style="text-align: center;">3.00</td>
+      <td style="text-align: center;">3.77</td>
+      <td style="text-align: center;"><ins>19.17</ins></td>
+      <td style="text-align: center;"><ins>8.67</ins></td>
+      <td style="text-align: center;">119.05</td>
+      <td style="text-align: center;">1.40</td>
+      <td style="text-align: center;">22</td>
+      <td style="text-align: center;"><ins>16.7</ins></td>
+    </tr>
+    <tr class="even">
+      <td>DreamCube</td>
+      <td style="text-align: center;">66.15</td>
+      <td style="text-align: center;"><strong>2.05</strong></td>
+      <td style="text-align: center;"><strong>4.88</strong></td>
+      <td style="text-align: center;"><strong>19.26</strong></td>
+      <td style="text-align: center;">15.87</td>
+      <td style="text-align: center;"><ins>115.52</ins></td>
+      <td style="text-align: center;"><ins>1.10</ins></td>
+      <td style="text-align: center;"><ins>12</ins></td>
+      <td style="text-align: center;"><ins>16.7</ins></td>
     </tr>
   </tbody>
 </table>
