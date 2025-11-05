@@ -207,7 +207,7 @@ Quantitative Comparison of Representative Text-Driven 360-Degree Panorama Genera
       <td style="text-align: center;">72.63</td>
       <td style="text-align: center;">1.54</td>
       <td style="text-align: center;">5.35</td>
-      <td style="text-align: center;"><u>19.20</u></td>
+      <td style="text-align: center;"><ins>19.20</ins></td>
       <td style="text-align: center;">18.10</td>
       <td style="text-align: center;">99.81</td>
       <td style="text-align: center;">5.38</td>
@@ -221,9 +221,9 @@ Quantitative Comparison of Representative Text-Driven 360-Degree Panorama Genera
       <td style="text-align: center;">5.29</td>
       <td style="text-align: center;">18.74</td>
       <td style="text-align: center;"><strong>12.43</strong></td>
-      <td style="text-align: center;"><u>92.23</u></td>
+      <td style="text-align: center;"><ins>92.23</ins></td>
       <td style="text-align: center;">0.94</td>
-      <td style="text-align: center;"><u>3</u></td>
+      <td style="text-align: center;"><ins>3</ins></td>
       <td style="text-align: center;"><strong>3.5</strong></td>
     </tr>
     <tr class="even">
@@ -231,12 +231,12 @@ Quantitative Comparison of Representative Text-Driven 360-Degree Panorama Genera
       <td style="text-align: center;">76.69</td>
       <td style="text-align: center;">2.04</td>
       <td style="text-align: center;"><strong>7.36</strong></td>
-      <td style="text-align: center;"><u>19.20</u></td>
+      <td style="text-align: center;"><ins>19.20</ins></td>
       <td style="text-align: center;">15.58</td>
       <td style="text-align: center;">108.63</td>
       <td style="text-align: center;">1.07</td>
       <td style="text-align: center;">28</td>
-      <td style="text-align: center;"><u>3.6</u></td>
+      <td style="text-align: center;"><ins>3.6</ins></td>
     </tr>
     <tr class="odd">
       <td>PanFusion</td>
@@ -244,7 +244,7 @@ Quantitative Comparison of Representative Text-Driven 360-Degree Panorama Genera
       <td style="text-align: center;"><strong>1.07</strong></td>
       <td style="text-align: center;">6.16</td>
       <td style="text-align: center;">18.96</td>
-      <td style="text-align: center;"><u>13.16</u></td>
+      <td style="text-align: center;"><ins>13.16</ins></td>
       <td style="text-align: center;"><strong>92.22</strong></td>
       <td style="text-align: center;">0.85</td>
       <td style="text-align: center;">30</td>
@@ -252,13 +252,13 @@ Quantitative Comparison of Representative Text-Driven 360-Degree Panorama Genera
     </tr>
     <tr class="even">
       <td>PAR</td>
-      <td style="text-align: center;"><u>64.96</u></td>
-      <td style="text-align: center;"><u>1.49</u></td>
-      <td style="text-align: center;"><u>6.68</u></td>
+      <td style="text-align: center;"><ins>64.96</ins></td>
+      <td style="text-align: center;"><ins>1.49</ins></td>
+      <td style="text-align: center;"><ins>6.68</ins></td>
       <td style="text-align: center;">18.91</td>
       <td style="text-align: center;">13.99</td>
       <td style="text-align: center;">104.02</td>
-      <td style="text-align: center;"><u>0.76</u></td>
+      <td style="text-align: center;"><ins>0.76</ins></td>
       <td style="text-align: center;">17</td>
       <td style="text-align: center;">18.6</td>
     </tr>
